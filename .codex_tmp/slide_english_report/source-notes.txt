@@ -1,0 +1,15 @@
+SOURCE NOTES
+
+Visual source
+- User-provided reference deck: D:\Slide_DACS3_LeDuyKhang.pptx
+- VKU logo and pencil/lightbulb assets are reused from the source deck.
+
+Content sources
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\pom.xml
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\src\main\webapp\WEB-INF\spring-servlet.xml
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\src\main\java\com\javaweb\controller
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\src\main\java\com\javaweb\entity
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\src\main\java\com\javaweb\service
+- D:\Study\VKU\Nam2HK2\JavaFramework\Ontap\leave_management\src\test\java\com\javaweb\service
+
+No external web claims or external assets are used.

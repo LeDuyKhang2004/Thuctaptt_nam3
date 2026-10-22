@@ -1,0 +1,22 @@
+COMMUNICATION JOB
+
+By the end, a university project-review audience should understand that LeaveFlow is a complete role-based web application that centralizes leave requests, approval decisions, and contextual AI assistance because the system combines a clear workflow, secure data access, and a tested Java/Spring architecture.
+
+NARRATIVE ARC
+
+1. Introduce the project and author.
+2. Establish the presentation structure.
+3. Explain why manual leave coordination creates avoidable delays and uncertainty.
+4. Define the project's measurable functional and quality objectives.
+5. Show the implementation stack and layered architecture.
+6. Explain the Employee/Admin roles and the request lifecycle.
+7. Show how the database preserves ownership and review history.
+8. Present the most valuable user, admin, and AI capabilities.
+9. Transition to a live demonstration.
+10. Summarize implemented results and realistic next improvements.
+11. Synthesize the technical and user value of the project.
+12. Invite questions.
+
+OUTPUT LENGTH
+
+12 slides, appropriate for a concise 8–12 minute project report plus demonstration.

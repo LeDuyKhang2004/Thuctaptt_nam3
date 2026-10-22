@@ -1,0 +1,2508 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i107q5of",
+    "id": "i107q5of",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+    "layoutName": "Blank",
+    "layoutType": "blank",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Arial Bold",
+      "Calibri"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "type": "blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/2",
+          "id": "2",
+          "name": "Date Placeholder 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/3",
+          "id": "3",
+          "name": "Footer Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            48,
+            28.83,
+            864,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            48,
+            168,
+            864,
+            475.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            48,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            328,
+            667.33,
+            304,
+            38.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            688,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cf2tcr61",
+      "id": "3",
+      "name": "Freeform 3",
+      "bbox": [
+        0,
+        1042.2,
+        1920,
+        37.8
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhkbe1o7",
+      "id": "5",
+      "name": "Freeform 5",
+      "bbox": [
+        0,
+        0,
+        1920,
+        15.12
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032tgr6d",
+      "id": "7",
+      "name": "Freeform 7",
+      "bbox": [
+        0,
+        80.15,
+        1920,
+        156.48
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6dcr65o",
+      "id": "8",
+      "name": "TextBox 8",
+      "bbox": [
+        0,
+        77.9,
+        1920,
+        158.73
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "Technology Stack",
+      "textPreview": "Technology Stack",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Technology Stack"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Technology Stack",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Technology Stack",
+              "fontSize": 96,
+              "typeface": "Arial",
+              "color": "#404040"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/rmxovy5s",
+      "id": "14",
+      "name": "Table 9",
+      "bbox": [
+        158.56,
+        285.76,
+        362.67,
+        701.62
+      ],
+      "text": "Presentation | Presentation | Presentation\nJSP + CSS | JSP + CSS | JSP + CSS\nJSP\nJSTL\nHTML5 / CSS3\nJavaScript\nResponsive pages, role-aware views, and AI chat widget",
+      "textPreview": "Presentation | Presentation | Presentation | JSP + CSS | JSP + CSS | JSP + CSS | JSP | JSTL | HTML5 / CSS3 | JavaScript | Responsive page...",
+      "rows": 7,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            158.56,
+            285.76,
+            362.67,
+            61.6
+          ],
+          "text": "Presentation",
+          "textPreview": "Presentation",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Presentation",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Presentation",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            210.59,
+            285.76,
+            259.84,
+            61.6
+          ],
+          "text": "Presentation",
+          "textPreview": "Presentation",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Presentation",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Presentation",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            470.43,
+            285.76,
+            50.79,
+            61.6
+          ],
+          "text": "Presentation",
+          "textPreview": "Presentation",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Presentation",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Presentation",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            158.56,
+            347.37,
+            362.67,
+            143.82
+          ],
+          "text": "JSP + CSS",
+          "textPreview": "JSP + CSS",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JSP + CSS",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JSP + CSS",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            210.59,
+            347.37,
+            259.84,
+            143.82
+          ],
+          "text": "JSP + CSS",
+          "textPreview": "JSP + CSS",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JSP + CSS",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JSP + CSS",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            470.43,
+            347.37,
+            50.79,
+            143.82
+          ],
+          "text": "JSP + CSS",
+          "textPreview": "JSP + CSS",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JSP + CSS",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JSP + CSS",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            158.56,
+            491.18,
+            52.04,
+            156.19
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            210.59,
+            491.18,
+            259.84,
+            156.19
+          ],
+          "text": "JSP\nJSTL\nHTML5 / CSS3\nJavaScript",
+          "textPreview": "JSP | JSTL | HTML5 / CSS3 | JavaScript",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JSP",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JSP",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "JSTL",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JSTL",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "HTML5 / CSS3",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "HTML5 / CSS3",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "JavaScript",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JavaScript",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            470.43,
+            491.18,
+            50.79,
+            156.19
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            158.56,
+            647.37,
+            52.04,
+            55.46
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "rowSpan": 3,
+          "bbox": [
+            210.59,
+            647.37,
+            259.84,
+            295.17
+          ],
+          "text": "Responsive pages, role-aware views, and AI chat widget",
+          "textPreview": "Responsive pages, role-aware views, and AI chat widget",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Responsive pages, role-aware views, and AI chat widget",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Responsive pages, role-aware views, and AI chat widget",
+                  "fontSize": 29.33,
+                  "typeface": "Arial",
+                  "color": "#404040"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            470.43,
+            647.37,
+            50.79,
+            55.46
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            158.56,
+            702.83,
+            52.04,
+            55.46
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            210.59,
+            702.83,
+            259.84,
+            55.46
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            470.43,
+            702.83,
+            50.79,
+            55.46
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            158.56,
+            758.29,
+            52.04,
+            184.24
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            210.59,
+            758.29,
+            259.84,
+            184.24
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            470.43,
+            758.29,
+            50.79,
+            184.24
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            158.56,
+            942.54,
+            362.67,
+            44.84
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            210.59,
+            942.54,
+            259.84,
+            44.84
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            470.43,
+            942.54,
+            50.79,
+            44.84
+          ],
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/ql47mto7",
+      "id": "15",
+      "name": "Table 10",
+      "bbox": [
+        985.11,
+        285.76,
+        362.67,
+        714.08
+      ],
+      "text": "Persistence | Persistence | Persistence\nJPA + MySQL | JPA + MySQL | JPA + MySQL\nSpring Data JPA\nHibernate 6.5\nMySQL 8\nEntity mapping, repository queries, and transactional updates",
+      "textPreview": "Persistence | Persistence | Persistence | JPA + MySQL | JPA + MySQL | JPA + MySQL | Spring Data JPA | Hibernate 6.5 | MySQL 8 | Entity ma...",
+      "rows": 7,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            985.11,
+            285.76,
+            362.67,
+            60.86
+          ],
+          "text": "Persistence",
+          "textPreview": "Persistence",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Persistence",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Persistence",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            285.76,
+            259.84,
+            60.86
+          ],
+          "text": "Persistence",
+          "textPreview": "Persistence",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Persistence",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Persistence",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            285.76,
+            50.79,
+            60.86
+          ],
+          "text": "Persistence",
+          "textPreview": "Persistence",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Persistence",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Persistence",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            985.11,
+            346.62,
+            362.67,
+            141.78
+          ],
+          "text": "JPA + MySQL",
+          "textPreview": "JPA + MySQL",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JPA + MySQL",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JPA + MySQL",
+                  "fontSize": 37.33,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            346.62,
+            259.84,
+            141.78
+          ],
+          "text": "JPA + MySQL",
+          "textPreview": "JPA + MySQL",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JPA + MySQL",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JPA + MySQL",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            346.62,
+            50.79,
+            141.78
+          ],
+          "text": "JPA + MySQL",
+          "textPreview": "JPA + MySQL",
+          "fillColor": "#32AEB8",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "JPA + MySQL",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JPA + MySQL",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            985.11,
+            488.4,
+            52.04,
+            101.6
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            488.4,
+            259.84,
+            101.6
+          ],
+          "text": "Spring Data JPA\nHibernate 6.5\nMySQL 8",
+          "textPreview": "Spring Data JPA | Hibernate 6.5 | MySQL 8",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spring Data JPA",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spring Data JPA",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Hibernate 6.5",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Hibernate 6.5",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "MySQL 8",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "MySQL 8",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            488.4,
+            50.79,
+            101.6
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            985.11,
+            590,
+            52.04,
+            68.02
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "rowSpan": 3,
+          "bbox": [
+            1037.14,
+            590,
+            259.84,
+            357.95
+          ],
+          "text": "Entity mapping, repository queries, and transactional updates",
+          "textPreview": "Entity mapping, repository queries, and transactional updates",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Entity mapping, repository queries, and transactional updates",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Entity mapping, repository queries, and transactional updates",
+                  "fontSize": 29.32,
+                  "typeface": "Arial",
+                  "color": "#404040"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            590,
+            50.79,
+            68.02
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            985.11,
+            658.02,
+            52.04,
+            68.02
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            658.02,
+            259.84,
+            68.02
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            658.02,
+            50.79,
+            68.02
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            985.11,
+            726.04,
+            52.04,
+            221.91
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            726.04,
+            259.84,
+            221.91
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            726.04,
+            50.79,
+            221.91
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            985.11,
+            947.95,
+            362.67,
+            51.89
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            1037.14,
+            947.95,
+            259.84,
+            51.89
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            1296.98,
+            947.95,
+            50.79,
+            51.89
+          ],
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/dofqx8ny",
+      "id": "16",
+      "name": "Table 11",
+      "bbox": [
+        571.83,
+        285.76,
+        362.67,
+        695.12
+      ],
+      "text": "Application | Application | Application\nSpring MVC | Spring MVC | Spring MVC\nJava 17\nSpring MVC 6.1\nControllers\nServices\nRouting and validation, business rules, and session auth",
+      "textPreview": "Application | Application | Application | Spring MVC | Spring MVC | Spring MVC | Java 17 | Spring MVC 6.1 | Controllers | Services | Rout...",
+      "rows": 7,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            571.83,
+            285.76,
+            362.67,
+            62.24
+          ],
+          "text": "Application",
+          "textPreview": "Application",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Application",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Application",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            623.87,
+            285.76,
+            259.84,
+            62.24
+          ],
+          "text": "Application",
+          "textPreview": "Application",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Application",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Application",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            883.71,
+            285.76,
+            50.79,
+            62.24
+          ],
+          "text": "Application",
+          "textPreview": "Application",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Application",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Application",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            571.83,
+            348,
+            362.67,
+            140.79
+          ],
+          "text": "Spring MVC",
+          "textPreview": "Spring MVC",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spring MVC",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spring MVC",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            623.87,
+            348,
+            259.84,
+            140.79
+          ],
+          "text": "Spring MVC",
+          "textPreview": "Spring MVC",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spring MVC",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spring MVC",
+                  "fontSize": 37.32,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            883.71,
+            348,
+            50.79,
+            140.79
+          ],
+          "text": "Spring MVC",
+          "textPreview": "Spring MVC",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spring MVC",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spring MVC",
+                  "fontSize": 37.32,
+                  "typeface": "Arial",
+                  "color": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            571.83,
+            488.79,
+            52.04,
+            117.05
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            623.87,
+            488.79,
+            259.84,
+            117.05
+          ],
+          "text": "Java 17\nSpring MVC 6.1\nControllers\nServices",
+          "textPreview": "Java 17 | Spring MVC 6.1 | Controllers | Services",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Java 17",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Java 17",
+                  "fontSize": 32,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Spring MVC 6.1",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spring MVC 6.1",
+                  "fontSize": 32,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Controllers",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Controllers",
+                  "fontSize": 32,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Services",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Services",
+                  "fontSize": 32,
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            883.71,
+            488.79,
+            50.79,
+            117.05
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            571.83,
+            605.84,
+            52.04,
+            69.7
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "rowSpan": 3,
+          "bbox": [
+            623.87,
+            605.84,
+            259.84,
+            325.48
+          ],
+          "text": "Routing and validation, business rules, and session auth",
+          "textPreview": "Routing and validation, business rules, and session auth",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Routing and validation, business rules, and session auth",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Routing and validation, business rules, and session auth",
+                  "fontSize": 29.32,
+                  "typeface": "Arial",
+                  "color": "#404040"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            883.71,
+            605.84,
+            50.79,
+            69.7
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            571.83,
+            675.54,
+            52.04,
+            69.03
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            623.87,
+            675.54,
+            259.84,
+            69.03
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            883.71,
+            675.54,
+            50.79,
+            69.03
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            571.83,
+            744.57,
+            52.04,
+            186.75
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            623.87,
+            744.57,
+            259.84,
+            186.75
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            883.71,
+            744.57,
+            50.79,
+            186.75
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            571.83,
+            931.32,
+            362.67,
+            49.56
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            623.87,
+            931.32,
+            259.84,
+            49.56
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            883.71,
+            931.32,
+            50.79,
+            49.56
+          ],
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahkvi1cb",
+      "id": "12",
+      "name": "Freeform 12",
+      "bbox": [
+        1552.38,
+        400.38,
+        85.11,
+        85.82
+      ],
+      "geometry": "custom",
+      "fillImage": {
+        "assetId": "/ppt/media/image9.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 1352
+      },
+      "tableCell": {
+        "tableAid": "tb/sn6po36d",
+        "cellIndex": 4,
+        "row": 2,
+        "column": 1,
+        "overlap": 1
+      }
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2twb6dw",
+      "id": "13",
+      "name": "TextBox 13",
+      "bbox": [
+        1430.66,
+        520.24,
+        328.56,
+        320.99
+      ],
+      "geometry": "rect",
+      "text": "Easy to change colors, photos and Text. You can simply impress your audience and add a unique zing and appeal to your Presentations.",
+      "textPreview": "Easy to change colors, photos and Text. You can simply impress your audience and add a unique zing and appeal to your Presentations.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Easy to change colors, photos and Text. You can simply impress your audience and add a unique zing and appeal to your Presentations.",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "tableCell": {
+        "tableAid": "tb/sn6po36d",
+        "cellIndex": 11,
+        "row": 4,
+        "column": 2,
+        "overlap": 0.67
+      }
+    },
+    {
+      "order": 10,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/sn6po36d",
+      "id": "17",
+      "name": "Table 18",
+      "bbox": [
+        1413.6,
+        286.66,
+        362.67,
+        682.25
+      ],
+      "text": "Delivery | Delivery | Delivery\nMaven + Tomcat | Maven + Tomcat | Maven + Tomcat\nMaven WAR\nApache Tomcat\nJUnit 5\nPackaging, automated tests, and Tomcat runtime",
+      "textPreview": "Delivery | Delivery | Delivery | Maven + Tomcat | Maven + Tomcat | Maven + Tomcat | Maven WAR | Apache Tomcat | JUnit 5 | Packaging, auto...",
+      "rows": 7,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            1413.6,
+            286.66,
+            362.67,
+            67.42
+          ],
+          "text": "Delivery",
+          "textPreview": "Delivery",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Delivery",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Delivery",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            286.66,
+            259.84,
+            67.42
+          ],
+          "text": "Delivery",
+          "textPreview": "Delivery",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Delivery",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Delivery",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            286.66,
+            50.79,
+            67.42
+          ],
+          "text": "Delivery",
+          "textPreview": "Delivery",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Delivery",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Delivery",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            1413.6,
+            354.08,
+            362.67,
+            135.44
+          ],
+          "text": "Maven + Tomcat",
+          "textPreview": "Maven + Tomcat",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Maven + Tomcat",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Maven + Tomcat",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "ownedElementAids": [
+            "sh/ahkvi1cb"
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            354.08,
+            259.84,
+            135.44
+          ],
+          "text": "Maven + Tomcat",
+          "textPreview": "Maven + Tomcat",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Maven + Tomcat",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Maven + Tomcat",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            354.08,
+            50.79,
+            135.44
+          ],
+          "text": "Maven + Tomcat",
+          "textPreview": "Maven + Tomcat",
+          "fillColor": "#F2A40D",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Maven + Tomcat",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Maven + Tomcat",
+                  "fontSize": 37.32,
+                  "typeface": "Arial Bold",
+                  "color": "#FFFFFF",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            1413.6,
+            489.52,
+            52.04,
+            79.3
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            489.52,
+            259.84,
+            79.3
+          ],
+          "text": "Maven WAR\nApache Tomcat\nJUnit 5",
+          "textPreview": "Maven WAR | Apache Tomcat | JUnit 5",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Maven WAR",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Maven WAR",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Apache Tomcat",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Apache Tomcat",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "JUnit 5",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "JUnit 5",
+                  "fontSize": 32,
+                  "typeface": "Arial Bold",
+                  "color": "#404040",
+                  "bold": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            489.52,
+            50.79,
+            79.3
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 10,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            1413.6,
+            568.82,
+            52.04,
+            69.65
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 11,
+          "row": 4,
+          "column": 2,
+          "rowSpan": 3,
+          "bbox": [
+            1465.64,
+            568.82,
+            259.84,
+            363.41
+          ],
+          "text": "Packaging, automated tests, and Tomcat runtime",
+          "textPreview": "Packaging, automated tests, and Tomcat runtime",
+          "fillColor": "#FFFFFF",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Packaging, automated tests, and Tomcat runtime",
+              "resolvedTextStyle": {
+                "alignment": "left"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Packaging, automated tests, and Tomcat runtime",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ],
+          "ownedElementAids": [
+            "sh/v2twb6dw"
+          ]
+        },
+        {
+          "index": 12,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            568.82,
+            50.79,
+            69.65
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 13,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            1413.6,
+            638.47,
+            52.04,
+            69.65
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 14,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            638.47,
+            259.84,
+            69.65
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 15,
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            638.47,
+            50.79,
+            69.65
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 16,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            1413.6,
+            708.12,
+            52.04,
+            224.11
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 17,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            708.12,
+            259.84,
+            224.11
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 18,
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            708.12,
+            50.79,
+            224.11
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 19,
+          "row": 7,
+          "column": 1,
+          "colSpan": 3,
+          "bbox": [
+            1413.6,
+            932.23,
+            362.67,
+            36.68
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 20,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            1465.64,
+            932.23,
+            259.84,
+            36.68
+          ],
+          "fillColor": "#FFFFFF"
+        },
+        {
+          "index": 21,
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            1725.48,
+            932.23,
+            50.79,
+            36.68
+          ],
+          "fillColor": "#FFFFFF"
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

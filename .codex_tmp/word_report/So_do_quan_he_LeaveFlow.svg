@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#17324d" flood-opacity="0.14"/>
+    </filter>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf6f7"/>
+    </linearGradient>
+    <linearGradient id="usersHead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#173f6d"/>
+      <stop offset="100%" stop-color="#246b8e"/>
+    </linearGradient>
+    <linearGradient id="leaveHead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#087e8b"/>
+      <stop offset="100%" stop-color="#15a3a3"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 38px 'Segoe UI', Arial, sans-serif; fill: #14324c; letter-spacing: .5px; }
+      .subtitle { font: 400 19px 'Segoe UI', Arial, sans-serif; fill: #5c7184; }
+      .entity { font: 700 27px 'Segoe UI', Arial, sans-serif; fill: white; letter-spacing: .8px; }
+      .entity-sub { font: 400 15px 'Segoe UI', Arial, sans-serif; fill: #dceef6; }
+      .col { font: 700 14px 'Segoe UI', Arial, sans-serif; fill: #64788a; letter-spacing: .8px; }
+      .field { font: 600 17px 'Segoe UI', Arial, sans-serif; fill: #1b3449; }
+      .type { font: 500 16px 'Consolas', 'Courier New', monospace; fill: #365268; }
+      .constraint { font: 500 15px 'Segoe UI', Arial, sans-serif; fill: #5c7184; }
+      .badge { font: 800 12px 'Segoe UI', Arial, sans-serif; fill: white; }
+      .rel-title { font: 700 16px 'Segoe UI', Arial, sans-serif; fill: #143f5a; }
+      .rel-sub { font: 500 13px 'Consolas', 'Courier New', monospace; fill: #587184; }
+      .cardinality { font: 800 21px 'Segoe UI', Arial, sans-serif; fill: #0d7180; }
+      .legend { font: 500 15px 'Segoe UI', Arial, sans-serif; fill: #607487; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#pageBg)"/>
+  <circle cx="95" cy="82" r="34" fill="#e1eef7"/>
+  <ellipse cx="95" cy="72" rx="20" ry="8" fill="none" stroke="#246b8e" stroke-width="3"/>
+  <path d="M75 72v20c0 5 9 9 20 9s20-4 20-9V72M75 82c0 5 9 9 20 9s20-4 20-9"
+        fill="none" stroke="#246b8e" stroke-width="3"/>
+  <text x="145" y="76" class="title">SƠ ĐỒ QUAN HỆ CƠ SỞ DỮ LIỆU</text>
+  <text x="147" y="108" class="subtitle">LeaveFlow — Hệ thống quản lý nghỉ phép và nhân sự tích hợp trợ lý AI</text>
+
+  <!-- USERS -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="190" width="610" height="567" rx="18" fill="#ffffff"/>
+    <path d="M88 190h574a18 18 0 0 1 18 18v67H70v-67a18 18 0 0 1 18-18z" fill="url(#usersHead)"/>
+    <rect x="70" y="275" width="610" height="45" fill="#edf4fa"/>
+    <rect x="70" y="190" width="610" height="567" rx="18" fill="none" stroke="#c8d8e5" stroke-width="2"/>
+  </g>
+  <circle cx="112" cy="232" r="22" fill="#ffffff" opacity=".16"/>
+  <path d="M101 235h22M105 230v-8a7 7 0 0 1 14 0v8M103 235v11h18v-11"
+        fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="150" y="229" class="entity">USERS</text>
+  <text x="151" y="252" class="entity-sub">Tài khoản và phân quyền người dùng</text>
+  <text x="95" y="303" class="col">THUỘC TÍNH</text>
+  <text x="325" y="303" class="col">KIỂU DỮ LIỆU</text>
+  <text x="475" y="303" class="col">RÀNG BUỘC</text>
+
+  <!-- users rows -->
+  <g>
+    <rect x="70" y="320" width="610" height="72" fill="#ffffff"/>
+    <rect x="70" y="392" width="610" height="72" fill="#f8fbfd"/>
+    <rect x="70" y="464" width="610" height="72" fill="#ffffff"/>
+    <rect x="70" y="536" width="610" height="72" fill="#f8fbfd"/>
+    <rect x="70" y="608" width="610" height="72" fill="#ffffff"/>
+    <rect x="70" y="680" width="610" height="77" fill="#f8fbfd"/>
+    <g stroke="#dce7ef" stroke-width="1.5">
+      <line x1="70" y1="392" x2="680" y2="392"/>
+      <line x1="70" y1="464" x2="680" y2="464"/>
+      <line x1="70" y1="536" x2="680" y2="536"/>
+      <line x1="70" y1="608" x2="680" y2="608"/>
+      <line x1="70" y1="680" x2="680" y2="680"/>
+    </g>
+    <rect x="92" y="340" width="38" height="30" rx="8" fill="#e9a23b"/>
+    <text x="111" y="360" class="badge" text-anchor="middle">PK</text>
+    <text x="146" y="363" class="field">id</text>
+    <text x="325" y="363" class="type">BIGINT</text>
+    <text x="475" y="363" class="constraint">AUTO_INCREMENT</text>
+
+    <text x="95" y="435" class="field">username</text>
+    <text x="325" y="435" class="type">VARCHAR(255)</text>
+    <text x="475" y="425" class="constraint">UNIQUE</text>
+    <text x="475" y="447" class="constraint">NOT NULL</text>
+
+    <text x="95" y="507" class="field">password</text>
+    <text x="325" y="507" class="type">VARCHAR(255)</text>
+    <text x="475" y="507" class="constraint">NOT NULL · PBKDF2</text>
+
+    <text x="95" y="579" class="field">email</text>
+    <text x="325" y="579" class="type">VARCHAR(255)</text>
+    <text x="475" y="579" class="constraint">NULL</text>
+
+    <text x="95" y="651" class="field">full_name</text>
+    <text x="325" y="651" class="type">VARCHAR(255)</text>
+    <text x="475" y="651" class="constraint">Tên đầy đủ</text>
+
+    <text x="95" y="724" class="field">role</text>
+    <text x="325" y="724" class="type">VARCHAR(255)</text>
+    <text x="475" y="714" class="constraint">EMPLOYEE</text>
+    <text x="475" y="736" class="constraint">hoặc ADMIN</text>
+  </g>
+
+  <!-- LEAVE_REQUESTS -->
+  <g filter="url(#shadow)">
+    <rect x="920" y="130" width="610" height="701" rx="18" fill="#ffffff"/>
+    <path d="M938 130h574a18 18 0 0 1 18 18v67H920v-67a18 18 0 0 1 18-18z" fill="url(#leaveHead)"/>
+    <rect x="920" y="215" width="610" height="45" fill="#e9f6f5"/>
+    <rect x="920" y="130" width="610" height="701" rx="18" fill="none" stroke="#bcdedc" stroke-width="2"/>
+  </g>
+  <circle cx="962" cy="172" r="22" fill="#ffffff" opacity=".17"/>
+  <path d="M951 162h22v22h-22zM956 168h12M956 174h12M956 180h8"
+        fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="1000" y="169" class="entity">LEAVE_REQUESTS</text>
+  <text x="1001" y="192" class="entity-sub">Thông tin và trạng thái đơn nghỉ phép</text>
+  <text x="945" y="243" class="col">THUỘC TÍNH</text>
+  <text x="1170" y="243" class="col">KIỂU DỮ LIỆU</text>
+  <text x="1320" y="243" class="col">RÀNG BUỘC</text>
+
+  <!-- leave_requests rows -->
+  <g>
+    <rect x="920" y="260" width="610" height="68" fill="#ffffff"/>
+    <rect x="920" y="328" width="610" height="68" fill="#f7fbfb"/>
+    <rect x="920" y="396" width="610" height="68" fill="#ffffff"/>
+    <rect x="920" y="464" width="610" height="68" fill="#f7fbfb"/>
+    <rect x="920" y="532" width="610" height="68" fill="#ffffff"/>
+    <rect x="920" y="600" width="610" height="68" fill="#f7fbfb"/>
+    <rect x="920" y="668" width="610" height="68" fill="#ffffff"/>
+    <rect x="920" y="736" width="610" height="95" fill="#f7fbfb"/>
+    <g stroke="#d7e8e7" stroke-width="1.5">
+      <line x1="920" y1="328" x2="1530" y2="328"/>
+      <line x1="920" y1="396" x2="1530" y2="396"/>
+      <line x1="920" y1="464" x2="1530" y2="464"/>
+      <line x1="920" y1="532" x2="1530" y2="532"/>
+      <line x1="920" y1="600" x2="1530" y2="600"/>
+      <line x1="920" y1="668" x2="1530" y2="668"/>
+      <line x1="920" y1="736" x2="1530" y2="736"/>
+    </g>
+    <rect x="942" y="279" width="38" height="30" rx="8" fill="#e9a23b"/>
+    <text x="961" y="299" class="badge" text-anchor="middle">PK</text>
+    <text x="996" y="302" class="field">id</text>
+    <text x="1170" y="302" class="type">BIGINT</text>
+    <text x="1320" y="302" class="constraint">AUTO_INCREMENT</text>
+
+    <text x="945" y="370" class="field">reason</text>
+    <text x="1170" y="370" class="type">TEXT</text>
+    <text x="1320" y="370" class="constraint">Lý do nghỉ</text>
+
+    <text x="945" y="438" class="field">start_date</text>
+    <text x="1170" y="438" class="type">DATE</text>
+    <text x="1320" y="438" class="constraint">Ngày bắt đầu</text>
+
+    <text x="945" y="506" class="field">end_date</text>
+    <text x="1170" y="506" class="type">DATE</text>
+    <text x="1320" y="506" class="constraint">≥ start_date</text>
+
+    <text x="945" y="574" class="field">status</text>
+    <text x="1170" y="574" class="type">VARCHAR(255)</text>
+    <text x="1320" y="564" class="constraint">PENDING / APPROVED</text>
+    <text x="1320" y="586" class="constraint">/ REJECTED</text>
+
+    <text x="945" y="642" class="field">admin_note</text>
+    <text x="1170" y="642" class="type">TEXT</text>
+    <text x="1320" y="642" class="constraint">NULL</text>
+
+    <text x="945" y="710" class="field">created_at</text>
+    <text x="1170" y="710" class="type">DATETIME</text>
+    <text x="1320" y="710" class="constraint">Thời điểm tạo</text>
+
+    <rect x="942" y="766" width="38" height="30" rx="8" fill="#6b63c7"/>
+    <text x="961" y="786" class="badge" text-anchor="middle">FK</text>
+    <text x="996" y="789" class="field">user_id</text>
+    <text x="1170" y="789" class="type">BIGINT</text>
+    <text x="1320" y="779" class="constraint">REFERENCES users(id)</text>
+    <text x="1320" y="801" class="constraint">FOREIGN KEY</text>
+  </g>
+
+  <!-- Relationship -->
+  <g fill="none" stroke="#0d8791" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M680 356H800V500"/>
+    <path d="M800 590V783H895"/>
+    <line x1="702" y1="343" x2="702" y2="369"/>
+    <line x1="716" y1="343" x2="716" y2="369"/>
+    <line x1="895" y1="783" x2="920" y2="758"/>
+    <line x1="895" y1="783" x2="920" y2="783"/>
+    <line x1="895" y1="783" x2="920" y2="808"/>
+  </g>
+  <rect x="694" y="500" width="212" height="90" rx="16" fill="#ffffff" stroke="#9cced2" stroke-width="2" filter="url(#shadow)"/>
+  <text x="800" y="534" class="rel-title" text-anchor="middle">SỞ HỮU / THUỘC VỀ</text>
+  <text x="800" y="560" class="rel-sub" text-anchor="middle">users.id</text>
+  <text x="800" y="580" class="rel-sub" text-anchor="middle">→ leave_requests.user_id</text>
+  <text x="724" y="336" class="cardinality">1</text>
+  <text x="862" y="758" class="cardinality">N</text>
+
+  <!-- Footer legend -->
+  <g transform="translate(70 905)">
+    <rect width="1460" height="60" rx="14" fill="#ffffff" stroke="#d5e3ea" stroke-width="1.5"/>
+    <rect x="24" y="15" width="38" height="30" rx="8" fill="#e9a23b"/>
+    <text x="43" y="35" class="badge" text-anchor="middle">PK</text>
+    <text x="74" y="36" class="legend">Khóa chính</text>
+    <rect x="210" y="15" width="38" height="30" rx="8" fill="#6b63c7"/>
+    <text x="229" y="35" class="badge" text-anchor="middle">FK</text>
+    <text x="260" y="36" class="legend">Khóa ngoại</text>
+    <line x1="405" y1="30" x2="485" y2="30" stroke="#0d8791" stroke-width="4"/>
+    <text x="505" y="36" class="legend">Quan hệ một–nhiều: một người dùng có nhiều đơn nghỉ phép</text>
+    <text x="1428" y="36" class="legend" text-anchor="end">MySQL · Spring Data JPA</text>
+  </g>
+</svg>

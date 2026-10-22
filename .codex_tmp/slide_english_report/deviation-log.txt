@@ -1,0 +1,8 @@
+DEVIATION LOG
+
+- Slides 1–12: all MiniNote-specific text is rewritten for the LeaveFlow project while preserving the mapped source-slide composition.
+- Slide 1: supervisor is changed to “TS. Nguyễn Văn Bình” exactly as requested.
+- Slide 5: inherited technology tables are rewritten for Java/Spring MVC, JPA/MySQL, and Maven/Tomcat.
+- Slide 6: the MiniNote use-case diagram is replaced with the source deck's authentic pencil/lightbulb asset; the inherited text areas are rewritten as a role and workflow explanation.
+- Slide 10: the unused “Add Contents Title” sample text is cleared because it is an authoring remnant beneath the central illustration.
+- No external visual system, new slide primitives, master edits, or layout edits are introduced.

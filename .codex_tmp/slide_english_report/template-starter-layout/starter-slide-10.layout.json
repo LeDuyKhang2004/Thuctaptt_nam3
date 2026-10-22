@@ -1,0 +1,1567 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wvem3w",
+    "id": "wvem3w",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+    "layoutName": "Blank",
+    "layoutType": "blank",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Arial Bold",
+      "Calibri"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "type": "blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/2",
+          "id": "2",
+          "name": "Date Placeholder 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/3",
+          "id": "3",
+          "name": "Footer Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            48,
+            28.83,
+            864,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            48,
+            168,
+            864,
+            475.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            48,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            328,
+            667.33,
+            304,
+            38.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            688,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vih0fedw",
+      "id": "3",
+      "name": "Freeform 3",
+      "bbox": [
+        0,
+        1042.2,
+        1920,
+        37.8
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ojilovy",
+      "id": "5",
+      "name": "Freeform 5",
+      "bbox": [
+        0,
+        0,
+        1920,
+        15.12
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m10jeds",
+      "id": "7",
+      "name": "Freeform 7",
+      "bbox": [
+        1023.17,
+        420.03,
+        778.15,
+        75.59
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#F2A40D",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsjip8vu",
+      "id": "9",
+      "name": "Freeform 9",
+      "bbox": [
+        1023.17,
+        575.05,
+        778.15,
+        104.13
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#F2A40D",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obmxs3a5",
+      "id": "11",
+      "name": "Freeform 11",
+      "bbox": [
+        0,
+        25.93,
+        1920,
+        156.48
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nadgzyt0",
+      "id": "12",
+      "name": "TextBox 12",
+      "bbox": [
+        0,
+        23.68,
+        1920,
+        158.73
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "Conclusion & Future Work",
+      "textPreview": "Conclusion & Future Work",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Conclusion & Future Work"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conclusion & Future Work",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conclusion & Future Work",
+              "fontSize": 96,
+              "typeface": "Arial",
+              "color": "#404040"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29kfqtsf",
+      "id": "13",
+      "name": "Freeform 13",
+      "bbox": [
+        852.25,
+        207.41,
+        220.97,
+        776.13
+      ],
+      "geometry": "custom",
+      "fillImage": {
+        "assetId": "/ppt/media/image16.svg",
+        "contentType": "image/svg+xml",
+        "byteLength": 1406
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfmxw3ah",
+      "id": "15",
+      "name": "Freeform 15",
+      "bbox": [
+        147.64,
+        408.31,
+        778.15,
+        98.09
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ad4futsb",
+      "id": "17",
+      "name": "Freeform 17",
+      "bbox": [
+        143.53,
+        577.87,
+        778.15,
+        101.3
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sj2xkjad",
+      "id": "19",
+      "name": "Freeform 19",
+      "bbox": [
+        384.96,
+        287.33,
+        306.32,
+        100.61
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8"
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4z6pw365",
+      "id": "20",
+      "name": "TextBox 20",
+      "bbox": [
+        384.96,
+        272.15,
+        306.32,
+        115.79
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50f6p8nq",
+      "id": "21",
+      "name": "TextBox 21",
+      "bbox": [
+        1061.58,
+        433.82,
+        750.42,
+        42.92
+      ],
+      "geometry": "rect",
+      "text": "Add login and registration.",
+      "textPreview": "Add login and registration.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Add login and registration."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Add login and registration.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "login",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "registration",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixo7udof",
+      "id": "22",
+      "name": "TextBox 22",
+      "bbox": [
+        1076.62,
+        578.78,
+        604.17,
+        88.69
+      ],
+      "geometry": "rect",
+      "text": "Deploy API and database to an online server.",
+      "textPreview": "Deploy API and database to an online server.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deploy API and database to an online"
+          },
+          {
+            "index": 2,
+            "text": "server."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deploy API and database to an online server.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deploy",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " API ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "database",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " to an ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "online",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "server",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3yxony5k",
+      "id": "23",
+      "name": "TextBox 23",
+      "bbox": [
+        165.52,
+        420.85,
+        724.71,
+        88.69
+      ],
+      "geometry": "rect",
+      "text": "The application runs successfully on Android Emulator.",
+      "textPreview": "The application runs successfully on Android Emulator.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The application runs successfully on Android"
+          },
+          {
+            "index": 2,
+            "text": "Emulator."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The application runs successfully on Android Emulator.",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": "application",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": "runs",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": "successfully",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": "on",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": "Android",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 12,
+              "text": "Emulator",
+              "fontSize": 37.33
+            },
+            {
+              "index": 13,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3qp0nmh",
+      "id": "24",
+      "name": "TextBox 24",
+      "bbox": [
+        165.52,
+        582.82,
+        742.39,
+        88.69
+      ],
+      "geometry": "rect",
+      "text": "Folder, note, and flashcard management functions work correctly.",
+      "textPreview": "Folder, note, and flashcard management functions work correctly.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Folder, note, and flashcard management"
+          },
+          {
+            "index": 2,
+            "text": "functions work correctly."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Folder, note, and flashcard management functions work correctly.",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Folder",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "note",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "flashcard",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "management",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": "functions",
+              "fontSize": 37.33
+            },
+            {
+              "index": 12,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 13,
+              "text": "work",
+              "fontSize": 37.33
+            },
+            {
+              "index": 14,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 15,
+              "text": "correctly",
+              "fontSize": 37.33
+            },
+            {
+              "index": 16,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4z6tsn2",
+      "id": "25",
+      "name": "TextBox 25",
+      "bbox": [
+        364.81,
+        746.71,
+        478.81,
+        57.03
+      ],
+      "geometry": "rect",
+      "text": "Add Contents Title",
+      "textPreview": "Add Contents Title",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Add Contents Title"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Add Contents Title",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add Contents Title",
+              "fontSize": 37.32,
+              "typeface": "Arial Bold",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q187yd4b",
+      "id": "26",
+      "name": "TextBox 26",
+      "bbox": [
+        297.31,
+        301.85,
+        478.81,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Results",
+      "textPreview": "Results",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Results"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Results",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Results",
+              "fontSize": 53.32,
+              "typeface": "Arial",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/07qp4nmd",
+      "id": "28",
+      "name": "Freeform 28",
+      "bbox": [
+        1156.43,
+        287.33,
+        553.82,
+        100.61
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#F1A40D"
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqxsny",
+      "id": "29",
+      "name": "TextBox 29",
+      "bbox": [
+        1156.43,
+        272.15,
+        553.82,
+        115.79
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2lsnmp0",
+      "id": "30",
+      "name": "TextBox 30",
+      "bbox": [
+        1172.84,
+        305.14,
+        520.81,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Future Improvements",
+      "textPreview": "Future Improvements",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Future Improvements"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Future Improvements",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Future Improvements",
+              "fontSize": 53.32,
+              "typeface": "Arial",
+              "color": "#FFFFFF"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xo3apw76",
+      "id": "32",
+      "name": "Freeform 15",
+      "bbox": [
+        138.8,
+        730.17,
+        778.15,
+        98.09
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "text": "The Android app can connect to PHP API and MySQL.",
+      "textPreview": "The Android app can connect to PHP API and MySQL.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The Android app can connect to PHP API and"
+          },
+          {
+            "index": 2,
+            "text": "MySQL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The Android app can connect to PHP API and MySQL.",
+          "resolvedTextStyle": {
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": "Android",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": "app",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": " can ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": "connect",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": " to PHP API ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": "MySQL",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/903alw7a",
+      "id": "36",
+      "name": "Freeform 9",
+      "bbox": [
+        1008.53,
+        724.14,
+        778.15,
+        104.13
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#F2A40D",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfudovm1",
+      "id": "46",
+      "name": "TextBox 45",
+      "bbox": [
+        1050,
+        746.71,
+        960.72,
+        54.93
+      ],
+      "geometry": "rect",
+      "text": "Add cloud backup and synchronization.",
+      "textPreview": "Add cloud backup and synchronization.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Add cloud backup and synchronization."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Add cloud backup and synchronization.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "cloud",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "backup",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "synchronization",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

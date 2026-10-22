@@ -1,0 +1,41 @@
+SOURCE TEMPLATE AUDIT
+
+Source: D:\Slide_DACS3_LeDuyKhang.pptx
+Format: 16:9 widescreen, 1920 × 1080 source canvas
+Inventory: 12 slides, 1 master, 12 layouts, 17 embedded media assets
+
+Visual system
+- Primary teal fields and rules, white canvas, orange accents, charcoal text.
+- Large centered Arial headings with thin teal rules at the top and bottom.
+- Repeated pencil/lightbulb artwork provides the deck's visual identity.
+- Content slides use three recurring patterns: centered title with flat content, a teal left rail, and a two-column result/future layout.
+
+Reusable source-slide patterns
+- Slide 1: branded title slide with VKU logo, title field, student block, and supervisor block.
+- Slide 2: six-part contents page.
+- Slide 3: four-part motivation layout.
+- Slide 4: three-column objectives layout.
+- Slide 5: four-column technology table layout.
+- Slide 6: left visual plus right role/workflow copy.
+- Slide 7: three-column database description.
+- Slide 8: three-part key-features layout with a teal visual rail.
+- Slide 9: demo divider.
+- Slide 10: results versus future-work comparison.
+- Slide 11: conclusion page.
+- Slide 12: closing page.
+
+Typography and spacing
+- Preserve inherited Arial family, original font sizes, alignment, line spacing, text insets, and teal/orange color rhythm.
+- Shorten English copy to fit existing text boxes; do not shrink source typography.
+- Keep all brand chrome and decorative elements unless the frame map explicitly replaces or clears an object.
+
+Master/layout contract
+- The deck uses one imported PowerPoint master and 12 child layouts.
+- All output slides duplicate an existing source slide one-to-one.
+- Slide-local edits are used for content. No master or layout mutation is required.
+- Source master/layout placeholders are inherited; the final package will be checked for empty slide-local structural placeholders.
+
+Insertion contract
+- Rewrite only the exact text and table objects listed in template-frame-map.json.
+- Replace the MiniNote use-case image on slide 6 with the authentic pencil asset extracted from the source deck.
+- Add no new visual primitives and preserve every other inherited element.

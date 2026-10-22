@@ -1,0 +1,199 @@
+{"kind":"deck","id":"pr/u9vqqe","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"","type":"master","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"subtitle","type":"subtitle","textPreview":"Click to edit Master subtitle style"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout2.xml","name":"Title and Content","type":"obj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout3.xml","name":"Section Header","type":"secHead","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout4.xml","name":"Two Content","type":"twoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout5.xml","name":"Comparison","type":"twoTxTwoObj","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 3","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"content placeholder 5","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout6.xml","name":"Title Only","type":"titleOnly","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout7.xml","name":"Blank","type":"blank","placeholders":[{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout8.xml","name":"Content with Caption","type":"objTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"content placeholder 2","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout9.xml","name":"Picture with Caption","type":"picTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"picture","type":"picture"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout10.xml","name":"Title and Vertical Text","type":"vertTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout11.xml","name":"Vertical Title and Text","type":"vertTitleAndTx","placeholders":[{"name":"title","type":"title","textPreview":"Click to edit Master title style"},{"name":"body","type":"body","textPreview":"Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level"},{"name":"dateTime","type":"dateTime","textPreview":"6/3/2026"},{"name":"footer","type":"footer"},{"name":"slideNumber","type":"slideNumber","textPreview":"‹#›"}]}
+{"kind":"slide","id":"sl/mqaxip","slide":1,"title":"BASIC PROJECT 3","textShapes":5}
+{"kind":"shape","id":"sh/yh4bitsv","slide":1,"name":"Freeform 3","bbox":[168.09,222.49,370.67,822.67]}
+{"kind":"shape","id":"sh/cfmtgja5","slide":1,"name":"Freeform 5","bbox":[667.41,233.57,1111.2,240.87]}
+{"kind":"textbox","id":"sh/betc7e9k","slide":1,"name":"TextBox 6","text":"BASIC PROJECT 3\n","textPreview":"BASIC PROJECT 3 |","textChars":16,"textLines":2,"bbox":[667.41,231.32,1111.2,243.12]}
+{"kind":"shape","id":"sh/psbu5ore","slide":1,"name":"Freeform 8","bbox":[636.71,825.95,603.24,192.13]}
+{"kind":"textbox","id":"sh/or2tcjat","slide":1,"name":"TextBox 9","text":"Students: \nLe Duy Khang - 24IT105\n","textPreview":"Students:  | Le Duy Khang - 24IT105 |","textChars":34,"textLines":3,"bbox":[636.71,824.29,603.24,193.79]}
+{"kind":"shape","id":"sh/zi1sfyds","slide":1,"name":"Freeform 11","bbox":[774.13,405.4,923.47,360.96]}
+{"kind":"shape","id":"sh/0ja983ed","slide":1,"name":"TextBox 12","bbox":[774.13,390.21,923.47,376.15]}
+{"kind":"shape","id":"sh/qt8r29wb","slide":1,"name":"Freeform 14","bbox":[745.92,428.87,988.08,314.03]}
+{"kind":"textbox","id":"sh/ruhsbedw","slide":1,"name":"TextBox 15","text":"MiniNote\nAndroid Note Management Application for Students","textPreview":"MiniNote | Android Note Management Application for Students","textChars":57,"textLines":2,"bbox":[745.92,426.65,988.08,316.25]}
+{"kind":"shape","id":"sh/cvq94jeh","slide":1,"name":"Freeform 16","bbox":[0,0,328.05,210.89]}
+{"kind":"textbox","id":"sh/dgjadov2","slide":1,"name":"TextBox 17","text":"Supervisor: MSc. Nguyen Dang Y \nFaculty: Computer Science","textPreview":"Supervisor: MSc. Nguyen Dang Y  | Faculty: Computer Science","textChars":57,"textLines":2,"bbox":[1276.92,838.18,607.23,134]}
+{"kind":"textbox","id":"sh/2p8ry9wz","slide":1,"name":"TextBox 18","text":"Vietnam-Korea University of Information and Communication Technology","textPreview":"Vietnam-Korea University of Information and Communication Technology","textChars":68,"textLines":1,"bbox":[382.73,72.32,1111.2,127]}
+{"kind":"notes","id":"nt/mqaxip","slide":1,"text":""}
+{"kind":"slide","id":"sl/na75dr","slide":2,"title":"Contents","textShapes":14}
+{"kind":"shape","id":"sh/p4zapwju","slide":2,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/fyxsj21s","slide":2,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/h0falcji","slide":2,"name":"Freeform 7","bbox":[3.78,84.79,1920,120.96]}
+{"kind":"textbox","id":"sh/6t4rmxkv","slide":2,"name":"TextBox 8","text":"Contents","textPreview":"Contents","textChars":8,"textLines":1,"bbox":[3.78,82.54,1920,123.21]}
+{"kind":"shape","id":"sh/zq94vm9c","slide":2,"name":"Freeform 10","bbox":[3.78,246.25,1920,725.75]}
+{"kind":"shape","id":"sh/lsrmxwri","slide":2,"name":"Freeform 12","bbox":[137.03,358.56,120.96,120.96]}
+{"kind":"shape","id":"sh/7e94zm9o","slide":2,"name":"Freeform 14","bbox":[133.28,570.24,120.96,120.96]}
+{"kind":"shape","id":"sh/9grm1wru","slide":2,"name":"Freeform 16","bbox":[129.53,781.92,120.96,120.96]}
+{"kind":"textbox","id":"sh/8fi5srq9","slide":2,"name":"TextBox 17","text":"Motivation & Objectives","textPreview":"Motivation & Objectives","textChars":23,"textLines":1,"bbox":[292.13,376.48,613.09,65]}
+{"kind":"textbox","id":"sh/nip4n29k","slide":2,"name":"TextBox 18","text":"Technologies Used","textPreview":"Technologies Used","textChars":17,"textLines":1,"bbox":[319.45,602.31,540.23,65]}
+{"kind":"textbox","id":"sh/2xw3exsz","slide":2,"name":"TextBox 19","text":"System Analysis -Use Case","textPreview":"System Analysis -Use Case","textChars":25,"textLines":1,"bbox":[328.84,803.85,540.23,128]}
+{"kind":"shape","id":"sh/red8vats","slide":2,"name":"Freeform 21","bbox":[1102.08,360.32,120.96,120.96]}
+{"kind":"shape","id":"sh/dgfqxkby","slide":2,"name":"Freeform 23","bbox":[1098.33,572,120.96,120.96]}
+{"kind":"textbox","id":"sh/i947ylsb","slide":2,"name":"TextBox 24","text":"Database Design","textPreview":"Database Design","textChars":15,"textLines":1,"bbox":[1271.77,375.13,540.23,65]}
+{"kind":"textbox","id":"sh/3ad8rqtw","slide":2,"name":"TextBox 25","text":"Key Features & Demo","textPreview":"Key Features & Demo","textChars":19,"textLines":1,"bbox":[1271.77,567.07,540.23,128]}
+{"kind":"shape","id":"sh/5cvqt0b2","slide":2,"name":"Freeform 27","bbox":[956.22,347.25,7.56,566.93]}
+{"kind":"textbox","id":"sh/ulk7ulsf","slide":2,"name":"TextBox 28","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[139.62,375.13,115.79,89.34]}
+{"kind":"textbox","id":"sh/vmtonqtk","slide":2,"name":"TextBox 29","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[132.12,585.05,115.79,89.34]}
+{"kind":"textbox","id":"sh/xcj2psze","slide":2,"name":"TextBox 30","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[132.12,796.73,115.79,89.34]}
+{"kind":"textbox","id":"sh/wba1gnyt","slide":2,"name":"TextBox 31","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1105.18,376.48,115.79,89.34]}
+{"kind":"textbox","id":"sh/ba1kniho","slide":2,"name":"TextBox 32","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1097.68,586.4,115.79,89.34]}
+{"kind":"textbox","id":"sh/a9sjedg3","slide":2,"name":"TextBox 33","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1097.68,798.08,115.79,89.34]}
+{"kind":"shape","id":"sh/ona1c3yx","slide":2,"name":"Freeform 35","bbox":[1092.51,762.96,120.96,120.96]}
+{"kind":"textbox","id":"sh/nm10jyhc","slide":2,"name":"TextBox 36","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1097.68,781.96,115.79,78]}
+{"kind":"textbox","id":"sh/mlsjatgr","slide":2,"name":"TextBox 37","text":"Conclusion & Future Work","textPreview":"Conclusion & Future Work","textChars":24,"textLines":1,"bbox":[1271.77,755.92,540.23,128]}
+{"kind":"notes","id":"nt/na75dr","slide":2,"text":""}
+{"kind":"slide","id":"sl/ilmsug","slide":3,"title":"Motivation","textShapes":9}
+{"kind":"shape","id":"sh/n6t4bm9o","slide":3,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/14rm9cri","slide":3,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/z294729c","slide":3,"name":"Freeform 7","bbox":[0,103.3,1920,156.48]}
+{"kind":"textbox","id":"sh/kzm5cbah","slide":3,"name":"TextBox 8","text":"Motivation","textPreview":"Motivation","textChars":10,"textLines":1,"bbox":[0,101.05,1920,158.73]}
+{"kind":"shape","id":"sh/l0vmlgrm","slide":3,"name":"Freeform 9","bbox":[759.24,413.17,188.98,188.98]}
+{"kind":"shape","id":"sh/lkjid8ni","slide":3,"name":"Freeform 10","bbox":[971.48,360.26,241.89,241.89]}
+{"kind":"shape","id":"sh/kza1k3mx","slide":3,"name":"Freeform 11","bbox":[971.48,625.73,151.18,151.18]}
+{"kind":"shape","id":"sh/jy10bi5c","slide":3,"name":"Freeform 12","bbox":[736.56,625.73,211.66,211.66]}
+{"kind":"textbox","id":"sh/yxszid4r","slide":3,"name":"TextBox 13","text":"D","textPreview":"D","textChars":1,"textLines":1,"bbox":[983.53,631.88,65.4,76.41]}
+{"kind":"shape","id":"sh/xwji98n6","slide":3,"name":"Freeform 14","bbox":[783.35,436.43,67.75,63.42]}
+{"kind":"shape","id":"sh/wvahg3m1","slide":3,"name":"Freeform 15","bbox":[753.31,721.71,101.36,101.36]}
+{"kind":"shape","id":"sh/bu107y5g","slide":3,"name":"Freeform 16","bbox":[1098.9,398.32,82.2,82.88]}
+{"kind":"shape","id":"sh/atszetov","slide":3,"name":"Freeform 17","bbox":[1038.72,707.75,61.98,47.61]}
+{"kind":"shape","id":"sh/gru1snm5","slide":3,"name":"Freeform 19","bbox":[11.98,463.17,707.74,94.49]}
+{"kind":"shape","id":"sh/07mt4vyd","slide":3,"name":"TextBox 20","bbox":[11.98,447.98,707.74,109.68]}
+{"kind":"textbox","id":"sh/18vud0zy","slide":3,"name":"TextBox 21","text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[854.76,503.85,65.4,76.41]}
+{"kind":"textbox","id":"sh/e54b2lgn","slide":3,"name":"TextBox 22","text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[1003.47,495.51,65.4,76.41]}
+{"kind":"textbox","id":"sh/f6dcbqh8","slide":3,"name":"TextBox 23","text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[854.76,648.31,65.4,76.41]}
+{"kind":"textbox","id":"sh/s3mt0vyh","slide":3,"name":"TextBox 24","text":"Difficulty in managing study notes.","textPreview":"Difficulty in managing study notes.","textChars":35,"textLines":1,"bbox":[31.03,469.72,752.32,57.66]}
+{"kind":"shape","id":"sh/qhkbylgb","slide":3,"name":"Freeform 26","bbox":[21.5,682.54,688.68,135.95]}
+{"kind":"shape","id":"sh/r2dc7qhw","slide":3,"name":"TextBox 27","bbox":[21.5,667.36,688.68,151.14]}
+{"kind":"textbox","id":"sh/4f2twby5","slide":3,"name":"TextBox 28","text":"Need for better focus","textPreview":"Need for better focus","textChars":21,"textLines":1,"bbox":[54.96,690.36,630.59,64.62]}
+{"kind":"shape","id":"sh/7a9cf61s","slide":3,"name":"Freeform 30","bbox":[1139.66,631.14,688.68,140.35]}
+{"kind":"shape","id":"sh/690v61k7","slide":3,"name":"TextBox 31","bbox":[1139.66,615.96,688.68,155.54]}
+{"kind":"textbox","id":"sh/tcbuhgjy","slide":3,"name":"TextBox 32","text":"Apply acquired knowledge.\n","textPreview":"Apply acquired knowledge. |","textChars":26,"textLines":2,"bbox":[1165.46,639.18,500.9,193.87]}
+{"kind":"shape","id":"sh/vetcjq1o","slide":3,"name":"Freeform 34","bbox":[1243.37,386.64,628.91,195.18]}
+{"kind":"shape","id":"sh/udkval03","slide":3,"name":"TextBox 35","bbox":[1243.37,371.45,628.91,210.37]}
+{"kind":"textbox","id":"sh/h0bulgju","slide":3,"name":"TextBox 36","text":"Need for effective revision","textPreview":"Need for effective revision","textChars":27,"textLines":1,"bbox":[1253.37,396.32,651.63,129.25]}
+{"kind":"notes","id":"nt/ilmsug","slide":3,"text":""}
+{"kind":"slide","id":"sl/87mj99","slide":4,"title":"Objectives","textShapes":4}
+{"kind":"shape","id":"sh/cr6tgjeh","slide":4,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/2l4ra9wz","slide":4,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/onm9cze5","slide":4,"name":"Freeform 7","bbox":[0,64.62,1920,156.48]}
+{"kind":"textbox","id":"sh/7ixsvyd4","slide":4,"name":"TextBox 8","text":"Objectives","textPreview":"Objectives","textChars":10,"textLines":1,"bbox":[0,62.37,1920,158.73]}
+{"kind":"shape","id":"sh/kfy1cbeh","slide":4,"name":"Freeform 10","bbox":[229.07,378,348.43,510.43]}
+{"kind":"shape","id":"sh/5g7i5gf2","slide":4,"name":"TextBox 11","bbox":[229.07,362.81,348.43,525.62]}
+{"kind":"shape","id":"sh/jep036xc","slide":4,"name":"Freeform 13","bbox":[785.78,378,348.43,510.43]}
+{"kind":"shape","id":"sh/wbyh8bel","slide":4,"name":"TextBox 14","bbox":[785.78,362.81,348.43,525.62]}
+{"kind":"shape","id":"sh/a9wz61wf","slide":4,"name":"Freeform 16","bbox":[1342.5,378,411.11,510.43]}
+{"kind":"shape","id":"sh/vap0z6x0","slide":4,"name":"TextBox 17","bbox":[1342.5,362.81,411.11,525.62]}
+{"kind":"shape","id":"sh/98nixwfu","slide":4,"name":"Freeform 19","bbox":[246.1,401.35,314.36,460.61]}
+{"kind":"shape","id":"sh/psv6lo3m","slide":4,"name":"TextBox 20","bbox":[246.1,386.16,314.36,475.8]}
+{"kind":"shape","id":"sh/3qdojelg","slide":4,"name":"Freeform 22","bbox":[802.82,402.91,314.36,460.61]}
+{"kind":"shape","id":"sh/2p47atkv","slide":4,"name":"TextBox 23","bbox":[802.82,387.72,314.36,475.8]}
+{"kind":"shape","id":"sh/g3mp8j25","slide":4,"name":"Freeform 25","bbox":[1359.54,401.35,376.39,460.61]}
+{"kind":"shape","id":"sh/f2dofelk","slide":4,"name":"TextBox 26","bbox":[1359.54,386.16,376.39,475.8]}
+{"kind":"textbox","id":"sh/u147694z","slide":4,"name":"TextBox 27","text":"Manage study folders\nCreate, edit, delete, and view notes","textPreview":"Manage study folders | Create, edit, delete, and view notes","textChars":57,"textLines":2,"bbox":[217.37,441.31,343.42,315.05]}
+{"kind":"textbox","id":"sh/1kzqt83u","slide":4,"name":"TextBox 28","text":"Create and review flashcards\nSupport focused study sessions with Pomodoro","textPreview":"Create and review flashcards | Support focused study sessions with Pomodoro","textChars":73,"textLines":2,"bbox":[785.78,420,345.21,416.43]}
+{"kind":"textbox","id":"sh/0z6pk329","slide":4,"name":"TextBox 29","text":"Store data using PHP API and MySQL\nBuild a simple, clean, and user-friendly interface","textPreview":"Store data using PHP API and MySQL | Build a simple, clean, and user-friendly interface","textChars":85,"textLines":2,"bbox":[1331.44,441.31,404.49,367.55]}
+{"kind":"notes","id":"nt/87mj99","slide":4,"text":""}
+{"kind":"slide","id":"sl/1ljt5o","slide":5,"title":"Technologies Used","textShapes":2}
+{"kind":"shape","id":"sh/pwvuxwrm","slide":5,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/bydcz69s","slide":5,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/x0vu1gry","slide":5,"name":"Freeform 7","bbox":[0,80.15,1920,156.48]}
+{"kind":"textbox","id":"sh/q10buhs3","slide":5,"name":"TextBox 8","text":"Technologies Used","textPreview":"Technologies Used","textChars":17,"textLines":1,"bbox":[0,77.9,1920,158.73]}
+{"kind":"shape","id":"sh/9ojedgbm","slide":5,"name":"Freeform 12","bbox":[1552.38,400.38,85.11,85.82]}
+{"kind":"textbox","id":"sh/onaxkvu1","slide":5,"name":"TextBox 13","text":"Easy to change colors, photos and Text. You can simply impress your audience and add a unique zing and appeal to your Presentations. ","textPreview":"Easy to change colors, photos and Text. You can simply impress your audience and add a unique zing and appeal to your Presentations.","textChars":133,"textLines":1,"bbox":[1430.66,520.24,328.56,320.99]}
+{"kind":"table","id":"tb/8nq1gvqt","slide":5,"name":"Table 9","rows":7,"cols":3,"preview":"Client | Server | Server","bbox":[158.56,285.76,362.67,717.82]}
+{"kind":"table","id":"tb/tozi907e","slide":5,"name":"Table 10","rows":7,"cols":3,"preview":"Database | Database | Database","bbox":[985.11,285.76,362.67,714.08]}
+{"kind":"table","id":"tb/ml8jel83","slide":5,"name":"Table 11","rows":7,"cols":3,"preview":"API Server | Client | Client","bbox":[571.83,285.76,362.67,711.8]}
+{"kind":"table","id":"tb/7mh07qpo","slide":5,"name":"Table 18","rows":7,"cols":3,"preview":"Deploy | Deploy | Deploy","bbox":[1413.6,286.66,362.67,701.41]}
+{"kind":"notes","id":"nt/1ljt5o","slide":5,"text":""}
+{"kind":"slide","id":"sl/ityvvj","slide":6,"title":"System Analysis -Use Case","textShapes":3}
+{"kind":"shape","id":"sh/69crq9c3","slide":6,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/gfe9wju5","slide":6,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/udwru9cf","slide":6,"name":"Freeform 7","bbox":[0,39.87,1920,156.48]}
+{"kind":"textbox","id":"sh/pk7a9ob2","slide":6,"name":"TextBox 8","text":"System Analysis -Use Case","textPreview":"System Analysis -Use Case","textChars":25,"textLines":1,"bbox":[0,37.62,1920,158.73]}
+{"kind":"shape","id":"sh/e9w329cz","slide":6,"name":"Freeform 10","bbox":[102.1,185.75,532.93,798.11]}
+{"kind":"shape","id":"sh/fa54bedk","slide":6,"name":"TextBox 11","bbox":[102.1,170.56,532.93,813.3]}
+{"kind":"textbox","id":"sh/1cnmd4vq","slide":6,"name":"TextBox 13","text":"Use Case Diagram","textPreview":"Use Case Diagram","textChars":16,"textLines":1,"bbox":[134.39,908,468.36,64]}
+{"kind":"textbox","id":"sh/2dgn69cb","slide":6,"name":"TextBox 14","text":"Main Actor: User / Student\nThe user can perform the following functions:\nManage study folders.\nAdd, edit, delete, and search folders.\nManage notes inside each folder.\nAdd, edit, and delete notes.Manage flashcards by folder.\nFlip cards and move between flashcards.\nUse Pomodoro timer for focused study.\nView basic profile and application information","textPreview":"Main Actor: User / Student | The user can perform the following functions: | Manage study folders. | Add, edit, delete, and search folder...","textChars":348,"textLines":9,"bbox":[705.54,256.78,1177.49,646.25]}
+{"kind":"image","id":"im/0zul8rix","slide":6,"name":"Picture 14","bbox":[200,213.87,352,686.15]}
+{"kind":"notes","id":"nt/ityvvj","slide":6,"text":""}
+{"kind":"slide","id":"sl/3zk38q","slide":7,"title":"Database Design","textShapes":5}
+{"kind":"shape","id":"sh/kvytw7ex","slide":7,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/a5wrqxwv","slide":7,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/c7etsne1","slide":7,"name":"Freeform 7","bbox":[0,108,1920,156.48]}
+{"kind":"textbox","id":"sh/n25sfix4","slide":7,"name":"TextBox 8","text":"Database Design","textPreview":"Database Design","textChars":15,"textLines":1,"bbox":[0,105.75,1920,158.73]}
+{"kind":"textbox","id":"sh/21crmdwj","slide":7,"name":"TextBox 9","text":"folders: Stores study folder information\nMain fields: \nid\nname\nnote_count\ncreated_at","textPreview":"folders: Stores study folder information | Main fields:  | id | name | note_count | created_at","textChars":84,"textLines":6,"bbox":[96,405.05,576,469.62]}
+{"kind":"textbox","id":"sh/t43e5wzi","slide":7,"name":"TextBox 10","text":"notes: Stores notes belonging to each folder.\nMain fields:\nid\nfolder_id\ntitle \ncontent\ncreated_date","textPreview":"notes: Stores notes belonging to each folder. | Main fields: | id | folder_id | title  | content | created_date","textChars":99,"textLines":7,"bbox":[736,394.56,656,547.97]}
+{"kind":"textbox","id":"sh/72lw36hc","slide":7,"name":"TextBox 12","text":"The system uses MySQL database with three main tables:","textPreview":"The system uses MySQL database with three main tables:","textChars":54,"textLines":1,"bbox":[552.24,248.57,980.06,68.24]}
+{"kind":"textbox","id":"sh/503e1wzm","slide":7,"name":"TextBox 14","text":"3. flashcard: Stores flashcards belonging to each folder.\nMain fields:\nid\nfolder_id\nquestion \nanswer\ncreated_at","textPreview":"3. flashcard: Stores flashcards belonging to each folder. | Main fields: | id | folder_id | question  | answer | created_at","textChars":111,"textLines":7,"bbox":[1424,388.97,472,547.36]}
+{"kind":"notes","id":"nt/3zk38q","slide":7,"text":""}
+{"kind":"slide","id":"sl/phm1uw","slide":8,"title":"Key features","textShapes":7}
+{"kind":"shape","id":"sh/idk7q18f","slide":8,"name":"Freeform 3","bbox":[-0.55,0,332.64,1080]}
+{"kind":"shape","id":"sh/s3mpwvqh","slide":8,"name":"Freeform 5","bbox":[165.77,197,332.64,738.26]}
+{"kind":"shape","id":"sh/q1k7ul8b","slide":8,"name":"Freeform 7","bbox":[165.77,197,166.32,738.26]}
+{"kind":"shape","id":"sh/87ipkrqd","slide":8,"name":"Freeform 9","bbox":[627.36,31.89,1383.35,156.48]}
+{"kind":"textbox","id":"sh/adszi587","slide":8,"name":"TextBox 10","text":"Key features","textPreview":"Key features","textChars":12,"textLines":1,"bbox":[627.36,29.64,1383.35,158.73]}
+{"kind":"shape","id":"sh/bel0raps","slide":8,"name":"Freeform 11","bbox":[622.49,193.1,1103.74,151.18]}
+{"kind":"shape","id":"sh/wfuhkfqx","slide":8,"name":"Freeform 12","bbox":[627.36,506.53,1103.74,151.18]}
+{"kind":"shape","id":"sh/xg3itk7i","slide":8,"name":"Freeform 13","bbox":[618.91,730.54,1103.74,151.18]}
+{"kind":"textbox","id":"sh/yhczmp83","slide":8,"name":"TextBox 14","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[631.66,197,92.75,76.41]}
+{"kind":"textbox","id":"sh/j2l0vapo","slide":8,"name":"TextBox 15","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[627.36,505.73,92.75,76.41]}
+{"kind":"textbox","id":"sh/k3uhofq9","slide":8,"name":"TextBox 16","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[627.36,737.2,92.75,76.41]}
+{"kind":"textbox","id":"sh/l43ixk7u","slide":8,"name":"TextBox 17","text":"Folder Management:\nDisplay study folders.\nAdd new folders.\nEdit folder names.\nDelete folders.\nSearch folders.\n","textPreview":"Folder Management: | Display study folders. | Add new folders. | Edit folder names. | Delete folders. | Search folders. |","textChars":110,"textLines":7,"bbox":[823.11,185.5,903.12,317.56]}
+{"kind":"textbox","id":"sh/65wjqp8f","slide":8,"name":"TextBox 18","text":"Note Management\nDisplay notes by folder.\nAdd new notes.\nEdit note content.\nDelete notes","textPreview":"Note Management | Display notes by folder. | Add new notes. | Edit note content. | Delete notes","textChars":87,"textLines":5,"bbox":[826.34,504.53,903.12,226.02]}
+{"kind":"textbox","id":"sh/7650zupk","slide":8,"name":"TextBox 19","text":"Flashcard & Pomodoro:\nCreate and review flashcards.\nFlip cards to view answers.\nChoose Pomodoro study sets.\nStart, pause, and reset study timer.","textPreview":"Flashcard & Pomodoro: | Create and review flashcards. | Flip cards to view answers. | Choose Pomodoro study sets. | Start, pause, and res...","textChars":144,"textLines":5,"bbox":[826.34,736.03,904.77,228.88]}
+{"kind":"notes","id":"nt/phm1uw","slide":8,"text":""}
+{"kind":"slide","id":"sl/nqq75k","slide":9,"title":"Demo","textShapes":1}
+{"kind":"shape","id":"sh/32lgfah4","slide":9,"name":"Freeform 3","bbox":[0,540,1920,540]}
+{"kind":"shape","id":"sh/10jyd0zy","slide":9,"name":"Freeform 5","bbox":[444.33,177.13,1028.15,725.75]}
+{"kind":"shape","id":"sh/fy1gbqhs","slide":9,"name":"Freeform 7","bbox":[444.33,0,1028.15,41.05]}
+{"kind":"shape","id":"sh/tcje90z2","slide":9,"name":"Freeform 9","bbox":[444.33,1038.95,1028.15,41.05]}
+{"kind":"shape","id":"sh/srqls729","slide":9,"name":"Freeform 11","bbox":[872.65,242.8,171.5,380.64]}
+{"kind":"shape","id":"sh/6po3qxkj","slide":9,"name":"Freeform 13","bbox":[444.33,640.32,1028.15,120.96]}
+{"kind":"textbox","id":"sh/5of2hsjy","slide":9,"name":"TextBox 14","text":"Demo","textPreview":"Demo","textChars":4,"textLines":1,"bbox":[444.33,638.07,1028.15,123.21]}
+{"kind":"notes","id":"nt/nqq75k","slide":9,"text":""}
+{"kind":"slide","id":"sl/wvem3w","slide":10,"title":"Conclusion & Future Work","textShapes":10}
+{"kind":"shape","id":"sh/vih0fedw","slide":10,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/5ojilovy","slide":10,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/3m10jeds","slide":10,"name":"Freeform 7","bbox":[1023.17,420.03,778.15,75.59]}
+{"kind":"shape","id":"sh/dsjip8vu","slide":10,"name":"Freeform 9","bbox":[1023.17,575.05,778.15,104.13]}
+{"kind":"shape","id":"sh/obmxs3a5","slide":10,"name":"Freeform 11","bbox":[0,25.93,1920,156.48]}
+{"kind":"textbox","id":"sh/nadgzyt0","slide":10,"name":"TextBox 12","text":"Conclusion & Future Work","textPreview":"Conclusion & Future Work","textChars":24,"textLines":1,"bbox":[0,23.68,1920,158.73]}
+{"kind":"shape","id":"sh/29kfqtsf","slide":10,"name":"Freeform 13","bbox":[852.25,207.41,220.97,776.13]}
+{"kind":"shape","id":"sh/cfmxw3ah","slide":10,"name":"Freeform 15","bbox":[147.64,408.31,778.15,98.09]}
+{"kind":"shape","id":"sh/ad4futsb","slide":10,"name":"Freeform 17","bbox":[143.53,577.87,778.15,101.3]}
+{"kind":"shape","id":"sh/sj2xkjad","slide":10,"name":"Freeform 19","bbox":[384.96,287.33,306.32,100.61]}
+{"kind":"shape","id":"sh/4z6pw365","slide":10,"name":"TextBox 20","bbox":[384.96,272.15,306.32,115.79]}
+{"kind":"textbox","id":"sh/50f6p8nq","slide":10,"name":"TextBox 21","text":"Add login and registration.","textPreview":"Add login and registration.","textChars":27,"textLines":1,"bbox":[1061.58,433.82,750.42,42.92]}
+{"kind":"textbox","id":"sh/ixo7udof","slide":10,"name":"TextBox 22","text":"Deploy API and database to an online server.","textPreview":"Deploy API and database to an online server.","textChars":44,"textLines":1,"bbox":[1076.62,578.78,604.17,88.69]}
+{"kind":"textbox","id":"sh/3yxony5k","slide":10,"name":"TextBox 23","text":"The application runs successfully on Android Emulator.","textPreview":"The application runs successfully on Android Emulator.","textChars":54,"textLines":1,"bbox":[165.52,420.85,724.71,88.69]}
+{"kind":"textbox","id":"sh/s3qp0nmh","slide":10,"name":"TextBox 24","text":"Folder, note, and flashcard management functions work correctly.","textPreview":"Folder, note, and flashcard management functions work correctly.","textChars":64,"textLines":1,"bbox":[165.52,582.82,742.39,88.69]}
+{"kind":"textbox","id":"sh/d4z6tsn2","slide":10,"name":"TextBox 25","text":"Add Contents Title","textPreview":"Add Contents Title","textChars":18,"textLines":1,"bbox":[364.81,746.71,478.81,57.03]}
+{"kind":"textbox","id":"sh/q187yd4b","slide":10,"name":"TextBox 26","text":"Results","textPreview":"Results","textChars":7,"textLines":1,"bbox":[297.31,301.85,478.81,64]}
+{"kind":"shape","id":"sh/07qp4nmd","slide":10,"name":"Freeform 28","bbox":[1156.43,287.33,553.82,100.61]}
+{"kind":"shape","id":"sh/18jqxsny","slide":10,"name":"TextBox 29","bbox":[1156.43,272.15,553.82,115.79]}
+{"kind":"textbox","id":"sh/b2lsnmp0","slide":10,"name":"TextBox 30","text":"Future Improvements","textPreview":"Future Improvements","textChars":19,"textLines":1,"bbox":[1172.84,305.14,520.81,64]}
+{"kind":"textbox","id":"sh/xo3apw76","slide":10,"name":"Freeform 15","text":"The Android app can connect to PHP API and MySQL.","textPreview":"The Android app can connect to PHP API and MySQL.","textChars":49,"textLines":1,"bbox":[138.8,730.17,778.15,98.09]}
+{"kind":"shape","id":"sh/903alw7a","slide":10,"name":"Freeform 9","bbox":[1008.53,724.14,778.15,104.13]}
+{"kind":"textbox","id":"sh/sfudovm1","slide":10,"name":"TextBox 45","text":"Add cloud backup and synchronization.","textPreview":"Add cloud backup and synchronization.","textChars":37,"textLines":1,"bbox":[1050,746.71,960.72,54.93]}
+{"kind":"notes","id":"nt/wvem3w","slide":10,"text":""}
+{"kind":"slide","id":"sl/sbf5sr","slide":11,"title":"Conclusion","textShapes":2}
+{"kind":"shape","id":"sh/nyx8ne5w","slide":11,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"textbox","id":"sh/1cfql4nq","slide":11,"name":"TextBox 4","text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[704,132,960.72,126.02]}
+{"kind":"textbox","id":"sh/fax8je5k","slide":11,"name":"TextBox 6","text":"MiniNote is an Android application designed to support students in managing study notes, reviewing knowledge with flashcards, and improving concentration with the Pomodoro technique.\n\nThrough this project, I learned how to build an Android application using Kotlin and XML, connect it with PHP API through Retrofit, and store data in MySQL.\n\nAlthough the application still has some limitations, it has completed the main goals of the project and can be further improved in the future.","textPreview":"MiniNote is an Android application designed to support students in managing study notes, reviewing knowledge with flashcards, and improvi...","textChars":484,"textLines":5,"bbox":[248,316,1360,416.83]}
+{"kind":"notes","id":"nt/sbf5sr","slide":11,"text":""}
+{"kind":"slide","id":"sl/lqrn9d","slide":12,"title":"Thank you","textShapes":1}
+{"kind":"shape","id":"sh/65knyhw7","slide":12,"name":"Freeform 3","bbox":[695.4,154.89,529.2,529.2]}
+{"kind":"shape","id":"sh/gvm54be9","slide":12,"name":"Freeform 5","bbox":[873.98,239.2,172.03,381.81]}
+{"kind":"shape","id":"sh/ut4n21w3","slide":12,"name":"Freeform 7","bbox":[0,747.76,1920,120.96]}
+{"kind":"textbox","id":"sh/p0v61gf6","slide":12,"name":"TextBox 8","text":"Thank you","textPreview":"Thank you","textChars":9,"textLines":1,"bbox":[0,745.51,1920,123.21]}
+{"kind":"notes","id":"nt/lqrn9d","slide":12,"text":""}

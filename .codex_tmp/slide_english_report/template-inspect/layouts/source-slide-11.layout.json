@@ -1,0 +1,1108 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jetc3ut0",
+    "id": "jetc3ut0",
+    "slide": 11,
+    "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+    "layoutName": "Blank",
+    "layoutType": "blank",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Calibri"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "type": "blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/2",
+          "id": "2",
+          "name": "Date Placeholder 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/3",
+          "id": "3",
+          "name": "Footer Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            48,
+            28.83,
+            864,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            48,
+            168,
+            864,
+            475.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            48,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            328,
+            667.33,
+            304,
+            38.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            688,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbih4b6d",
+      "id": "3",
+      "name": "Freeform 5",
+      "bbox": [
+        0,
+        0,
+        1920,
+        15.12
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/250zy18b",
+      "id": "5",
+      "name": "TextBox 4",
+      "bbox": [
+        704,
+        132,
+        960.72,
+        126.02
+      ],
+      "geometry": "rect",
+      "text": "Conclusion",
+      "textPreview": "Conclusion",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Conclusion"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conclusion",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conclusion",
+              "fontSize": 96,
+              "typeface": "Arial",
+              "color": "#404040"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7ih0r6h",
+      "id": "7",
+      "name": "TextBox 6",
+      "bbox": [
+        248,
+        316,
+        1360,
+        416.83
+      ],
+      "geometry": "rect",
+      "text": "MiniNote is an Android application designed to support students in managing study notes, reviewing knowledge with flashcards, and improving concentration with the Pomodoro technique.\n\nThrough this project, I learned how to build an Android application using Kotlin and XML, connect it with PHP API through Retrofit, and store data in MySQL.\n\nAlthough the application still has some limitations, it has completed the main goals of the project and can be further improved in the future.",
+      "textPreview": "MiniNote is an Android application designed to support students in managing study notes, reviewing knowledge with flashcards, and improvi...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "wrap": "square",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 9,
+        "lines": [
+          {
+            "index": 1,
+            "text": "•MiniNote is an Android application designed to support students in managing study"
+          },
+          {
+            "index": 2,
+            "text": "notes, reviewing knowledge with flashcards, and improving concentration with the"
+          },
+          {
+            "index": 3,
+            "text": "Pomodoro technique."
+          },
+          {
+            "index": 4,
+            "text": ""
+          },
+          {
+            "index": 5,
+            "text": "•Through this project, I learned how to build an Android application using Kotlin and"
+          },
+          {
+            "index": 6,
+            "text": "XML, connect it with PHP API through Retrofit, and store data in MySQL."
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": "•Although the application still has some limitations, it has completed the main goals of"
+          },
+          {
+            "index": 9,
+            "text": "the project and can be further improved in the future."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MiniNote is an Android application designed to support students in managing study notes, reviewing knowledge with flashcards, and improving concentration with the Pomodoro technique.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "MiniNote",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "is",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " an ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "Android",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "application",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "designed",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": " to ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": "support",
+              "fontSize": 37.33
+            },
+            {
+              "index": 12,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 13,
+              "text": "students",
+              "fontSize": 37.33
+            },
+            {
+              "index": 14,
+              "text": " in ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 15,
+              "text": "managing",
+              "fontSize": 37.33
+            },
+            {
+              "index": 16,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 17,
+              "text": "study",
+              "fontSize": 37.33
+            },
+            {
+              "index": 18,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 19,
+              "text": "notes",
+              "fontSize": 37.33
+            },
+            {
+              "index": 20,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 21,
+              "text": "reviewing",
+              "fontSize": 37.33
+            },
+            {
+              "index": 22,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 23,
+              "text": "knowledge",
+              "fontSize": 37.33
+            },
+            {
+              "index": 24,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 25,
+              "text": "with",
+              "fontSize": 37.33
+            },
+            {
+              "index": 26,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 27,
+              "text": "flashcards",
+              "fontSize": 37.33
+            },
+            {
+              "index": 28,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 29,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 30,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 31,
+              "text": "improving",
+              "fontSize": 37.33
+            },
+            {
+              "index": 32,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 33,
+              "text": "concentration",
+              "fontSize": 37.33
+            },
+            {
+              "index": 34,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 35,
+              "text": "with",
+              "fontSize": 37.33
+            },
+            {
+              "index": 36,
+              "text": " the ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 37,
+              "text": "Pomodoro",
+              "fontSize": 37.33
+            },
+            {
+              "index": 38,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 39,
+              "text": "technique",
+              "fontSize": 37.33
+            },
+            {
+              "index": 40,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Through this project, I learned how to build an Android application using Kotlin and XML, connect it with PHP API through Retrofit, and store data in MySQL.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Through",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "this",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "project",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": ", I ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "learned",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "how",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": " to ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": "build",
+              "fontSize": 37.33
+            },
+            {
+              "index": 12,
+              "text": " an ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 13,
+              "text": "Android",
+              "fontSize": 37.33
+            },
+            {
+              "index": 14,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 15,
+              "text": "application",
+              "fontSize": 37.33
+            },
+            {
+              "index": 16,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 17,
+              "text": "using",
+              "fontSize": 37.33
+            },
+            {
+              "index": 18,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 19,
+              "text": "Kotlin",
+              "fontSize": 37.33
+            },
+            {
+              "index": 20,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 21,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 22,
+              "text": " XML, ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 23,
+              "text": "connect",
+              "fontSize": 37.33
+            },
+            {
+              "index": 24,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 25,
+              "text": "it",
+              "fontSize": 37.33
+            },
+            {
+              "index": 26,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 27,
+              "text": "with",
+              "fontSize": 37.33
+            },
+            {
+              "index": 28,
+              "text": " PHP API ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 29,
+              "text": "through",
+              "fontSize": 37.33
+            },
+            {
+              "index": 30,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 31,
+              "text": "Retrofit",
+              "fontSize": 37.33
+            },
+            {
+              "index": 32,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 33,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 34,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 35,
+              "text": "store",
+              "fontSize": 37.33
+            },
+            {
+              "index": 36,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 37,
+              "text": "data",
+              "fontSize": 37.33
+            },
+            {
+              "index": 38,
+              "text": " in ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 39,
+              "text": "MySQL",
+              "fontSize": 37.33
+            },
+            {
+              "index": 40,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "Although the application still has some limitations, it has completed the main goals of the project and can be further improved in the future.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Although",
+              "fontSize": 37.33
+            },
+            {
+              "index": 2,
+              "text": " the ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 3,
+              "text": "application",
+              "fontSize": 37.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 5,
+              "text": "still",
+              "fontSize": 37.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 7,
+              "text": "has",
+              "fontSize": 37.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 9,
+              "text": "some",
+              "fontSize": 37.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 11,
+              "text": "limitations",
+              "fontSize": 37.33
+            },
+            {
+              "index": 12,
+              "text": ", ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 13,
+              "text": "it",
+              "fontSize": 37.33
+            },
+            {
+              "index": 14,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 15,
+              "text": "has",
+              "fontSize": 37.33
+            },
+            {
+              "index": 16,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 17,
+              "text": "completed",
+              "fontSize": 37.33
+            },
+            {
+              "index": 18,
+              "text": " the ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 19,
+              "text": "main",
+              "fontSize": 37.33
+            },
+            {
+              "index": 20,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 21,
+              "text": "goals",
+              "fontSize": 37.33
+            },
+            {
+              "index": 22,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 23,
+              "text": "of",
+              "fontSize": 37.33
+            },
+            {
+              "index": 24,
+              "text": " the ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 25,
+              "text": "project",
+              "fontSize": 37.33
+            },
+            {
+              "index": 26,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 27,
+              "text": "and",
+              "fontSize": 37.33
+            },
+            {
+              "index": 28,
+              "text": " can be ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 29,
+              "text": "further",
+              "fontSize": 37.33
+            },
+            {
+              "index": 30,
+              "text": " ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 31,
+              "text": "improved",
+              "fontSize": 37.33
+            },
+            {
+              "index": 32,
+              "text": " in the ",
+              "fontSize": 37.33
+            },
+            {
+              "index": 33,
+              "text": "future",
+              "fontSize": 37.33
+            },
+            {
+              "index": 34,
+              "text": ".",
+              "fontSize": 37.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

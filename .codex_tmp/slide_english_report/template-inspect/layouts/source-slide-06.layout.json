@@ -1,0 +1,1193 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x8f69ofe",
+    "id": "x8f69ofe",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout7.xml",
+    "layoutName": "Blank",
+    "layoutType": "blank",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Office",
+    "colors": {
+      "accent1": "#4F81BD",
+      "accent2": "#C0504D",
+      "accent3": "#9BBB59",
+      "accent4": "#8064A2",
+      "accent5": "#4BACC6",
+      "accent6": "#F79646",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#1F497D",
+      "lt2": "#EEECE1",
+      "hlink": "#0000FF",
+      "folHlink": "#800080"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Arial",
+      "Arial Bold",
+      "Calibri"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout7.xml",
+      "name": "Blank",
+      "type": "blank",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/2",
+          "id": "2",
+          "name": "Date Placeholder 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/3",
+          "id": "3",
+          "name": "Footer Placeholder 2",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout7.xml/4",
+          "id": "4",
+          "name": "Slide Number Placeholder 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Title Placeholder 1",
+          "bbox": [
+            48,
+            28.83,
+            864,
+            120
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master title style",
+          "textPreview": "Click to edit Master title style",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master title style",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master title style"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Text Placeholder 2",
+          "bbox": [
+            48,
+            168,
+            864,
+            475.17
+          ],
+          "geometry": "rect",
+          "text": "Click to edit Master text styles\nSecond level\nThird level\nFourth level\nFifth level",
+          "textPreview": "Click to edit Master text styles | Second level | Third level | Fourth level | Fifth level",
+          "resolvedTextStyle": {
+            "vertical": 1,
+            "autoFit": "shrinkText",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Click to edit Master text styles",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Click to edit Master text styles"
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "text": "Second level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Second level"
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "text": "Third level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Third level"
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "text": "Fourth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fourth level"
+                }
+              ]
+            },
+            {
+              "index": 5,
+              "text": "Fifth level",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Fifth level"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Date Placeholder 3",
+          "bbox": [
+            48,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "6/3/2026",
+          "textPreview": "6/3/2026",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "6/3/2026",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "6/3/2026"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Footer Placeholder 4",
+          "bbox": [
+            328,
+            667.33,
+            304,
+            38.33
+          ],
+          "geometry": "rect",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          }
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Slide Number Placeholder 5",
+          "bbox": [
+            688,
+            667.33,
+            224,
+            38.33
+          ],
+          "geometry": "rect",
+          "text": "‹#›",
+          "textPreview": "‹#›",
+          "resolvedTextStyle": {
+            "anchor": 2,
+            "vertical": 1,
+            "verticalAlignment": "middle",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            }
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "‹#›",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "‹#›"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zi98nu94",
+      "id": "3",
+      "name": "Freeform 3",
+      "bbox": [
+        0,
+        1042.2,
+        1920,
+        37.8
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98rqt4r6",
+      "id": "5",
+      "name": "Freeform 5",
+      "bbox": [
+        0,
+        0,
+        1920,
+        15.12
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8",
+      "lineColor": "#000000",
+      "lineWidth": 1.33
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7m98ru9g",
+      "id": "7",
+      "name": "Freeform 7",
+      "bbox": [
+        0,
+        39.87,
+        1920,
+        156.48
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oryp8fah",
+      "id": "8",
+      "name": "TextBox 8",
+      "bbox": [
+        0,
+        37.62,
+        1920,
+        158.73
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "text": "System Analysis -Use Case",
+      "textPreview": "System Analysis -Use Case",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "System Analysis -Use Case"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "System Analysis -Use Case",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "System Analysis -Use Case",
+              "fontSize": 96,
+              "typeface": "Arial",
+              "color": "#404040"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4bupgn6",
+      "id": "10",
+      "name": "Freeform 10",
+      "bbox": [
+        102.1,
+        185.75,
+        532.93,
+        798.11
+      ],
+      "rotation": 0,
+      "geometry": "custom",
+      "fillColor": "#32AEB8"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32twb6l",
+      "id": "11",
+      "name": "TextBox 11",
+      "bbox": [
+        102.1,
+        170.56,
+        532.93,
+        813.3
+      ],
+      "rotation": 0,
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 5.33,
+          "right": 5.33,
+          "bottom": 5.33,
+          "left": 5.33
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1kbu1ov",
+      "id": "13",
+      "name": "TextBox 13",
+      "bbox": [
+        134.39,
+        908,
+        468.36,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Use Case Diagram",
+      "textPreview": "Use Case Diagram",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use Case Diagram"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use Case Diagram",
+          "resolvedTextStyle": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use Case Diagram",
+              "fontSize": 53.32,
+              "typeface": "Arial Bold",
+              "color": "#000000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5svutgni",
+      "id": "14",
+      "name": "TextBox 14",
+      "bbox": [
+        705.54,
+        256.78,
+        1177.49,
+        646.25
+      ],
+      "geometry": "rect",
+      "text": "Main Actor: User / Student\nThe user can perform the following functions:\nManage study folders.\nAdd, edit, delete, and search folders.\nManage notes inside each folder.\nAdd, edit, and delete notes.Manage flashcards by folder.\nFlip cards and move between flashcards.\nUse Pomodoro timer for focused study.\nView basic profile and application information",
+      "textPreview": "Main Actor: User / Student | The user can perform the following functions: | Manage study folders. | Add, edit, delete, and search folder...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Main Actor: User / Student"
+          },
+          {
+            "index": 2,
+            "text": "The user can perform the following functions:"
+          },
+          {
+            "index": 3,
+            "text": "•Manage study folders."
+          },
+          {
+            "index": 4,
+            "text": "•Add, edit, delete, and search folders."
+          },
+          {
+            "index": 5,
+            "text": "•Manage notes inside each folder."
+          },
+          {
+            "index": 6,
+            "text": "•Add, edit, and delete notes.Manage flashcards by"
+          },
+          {
+            "index": 7,
+            "text": "folder."
+          },
+          {
+            "index": 8,
+            "text": "•Flip cards and move between flashcards."
+          },
+          {
+            "index": 9,
+            "text": "•Use Pomodoro timer for focused study."
+          },
+          {
+            "index": 10,
+            "text": "•View basic profile and application information"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Main Actor: User / Student",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Main Actor: User / Student",
+              "fontSize": 53.32,
+              "typeface": "Arial Bold",
+              "color": "#000000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "The user can perform the following functions:",
+          "resolvedTextStyle": {
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The user can perform the following functions:",
+              "fontSize": 53.32,
+              "typeface": "Arial Bold",
+              "color": "#000000",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Manage study folders.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Manage",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "study",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "folders",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "Add, edit, delete, and search folders.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": ", ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "edit",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": ", ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "delete",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": ", ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "and",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "search",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 11,
+              "text": "folders",
+              "fontSize": 53.33
+            },
+            {
+              "index": 12,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "Manage notes inside each folder.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Manage",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "notes",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "inside",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "each",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "folder",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Add, edit, and delete notes.Manage flashcards by folder.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Add",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": ", ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "edit",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": ", ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "and",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "delete",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "notes.Manage",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 11,
+              "text": "flashcards",
+              "fontSize": 53.33
+            },
+            {
+              "index": 12,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 13,
+              "text": "by",
+              "fontSize": 53.33
+            },
+            {
+              "index": 14,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 15,
+              "text": "folder",
+              "fontSize": 53.33
+            },
+            {
+              "index": 16,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "Flip cards and move between flashcards.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Flip",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "cards",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "and",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "move",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "between",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 11,
+              "text": "flashcards",
+              "fontSize": 53.33
+            },
+            {
+              "index": 12,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 8,
+          "text": "Use Pomodoro timer for focused study.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "Pomodoro",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "timer",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "for",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "focused",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 11,
+              "text": "study",
+              "fontSize": 53.33
+            },
+            {
+              "index": 12,
+              "text": ".",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 9,
+          "text": "View basic profile and application information",
+          "runs": [
+            {
+              "index": 1,
+              "text": "View",
+              "fontSize": 53.33
+            },
+            {
+              "index": 2,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 3,
+              "text": "basic",
+              "fontSize": 53.33
+            },
+            {
+              "index": 4,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 5,
+              "text": "profile",
+              "fontSize": 53.33
+            },
+            {
+              "index": 6,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 7,
+              "text": "and",
+              "fontSize": 53.33
+            },
+            {
+              "index": 8,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 9,
+              "text": "application",
+              "fontSize": 53.33
+            },
+            {
+              "index": 10,
+              "text": " ",
+              "fontSize": 53.33
+            },
+            {
+              "index": 11,
+              "text": "information",
+              "fontSize": 53.33
+            }
+          ],
+          "marginLeft": 0
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ju1cfeto",
+      "id": "15",
+      "name": "Picture 14",
+      "bbox": [
+        200,
+        213.87,
+        352,
+        686.15
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "asset": {
+        "assetId": "/ppt/media/image12.png",
+        "contentType": "image/png",
+        "byteLength": 31385
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image12.png",
+        "contentType": "image/png",
+        "byteLength": 31385
+      }
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,131 @@
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"BASIC PROJECT 3","textShapes":5}
+{"kind":"shape","id":"sh/k3yl0zql","slide":1,"name":"Freeform 3","bbox":[168.09,222.49,370.67,822.67]}
+{"kind":"shape","id":"sh/65g3298r","slide":1,"name":"Freeform 5","bbox":[667.41,233.57,1111.2,240.87]}
+{"kind":"textbox","id":"sh/ts7md4r2","slide":1,"textChars":16,"textLines":2}
+{"kind":"shape","id":"sh/fu94fe98","slide":1,"name":"Freeform 8","bbox":[636.71,825.95,603.24,192.13]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"textChars":34,"textLines":3}
+{"kind":"shape","id":"sh/hofulsf2","slide":1,"name":"Freeform 11","bbox":[774.13,405.4,923.47,360.96]}
+{"kind":"shape","id":"sh/ul4vaxgb","slide":1,"name":"TextBox 12","bbox":[774.13,390.21,923.47,376.15]}
+{"kind":"shape","id":"sh/4r6dg7et","slide":1,"name":"Freeform 14","bbox":[745.92,428.87,988.08,314.03]}
+{"kind":"textbox","id":"sh/5sfepcfe","slide":1,"textChars":57,"textLines":2}
+{"kind":"shape","id":"sh/ipovexwn","slide":1,"name":"Freeform 16","bbox":[0,0,328.05,210.89]}
+{"kind":"textbox","id":"sh/3qxwn2x8","slide":1,"textChars":57,"textLines":2}
+{"kind":"textbox","id":"sh/sfqdkrep","slide":1,"textChars":68,"textLines":1}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Contents","textShapes":14}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"name":"Freeform 7","bbox":[3.78,84.79,1920,120.96]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"textChars":8,"textLines":1}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"name":"Freeform 10","bbox":[3.78,246.25,1920,725.75]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"name":"Freeform 12","bbox":[137.03,358.56,120.96,120.96]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"Freeform 14","bbox":[133.28,570.24,120.96,120.96]}
+{"kind":"shape","id":"sh/ahwrqhgj","slide":2,"name":"Freeform 16","bbox":[129.53,781.92,120.96,120.96]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"textChars":17,"textLines":1}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"textChars":25,"textLines":1}
+{"kind":"shape","id":"sh/s72xofmh","slide":2,"name":"Freeform 21","bbox":[1102.08,360.32,120.96,120.96]}
+{"kind":"shape","id":"sh/65kfmpor","slide":2,"name":"Freeform 23","bbox":[1098.33,572,120.96,120.96]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"textChars":19,"textLines":1}
+{"kind":"shape","id":"sh/u94fqp4n","slide":2,"name":"Freeform 27","bbox":[956.22,347.25,7.56,566.93]}
+{"kind":"textbox","id":"sh/p0vy54na","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/4zmxwzmp","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/mlgvq147","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/nmpcj6ls","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/onydsbmd","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/9o7ulg3y","slide":2,"textChars":2,"textLines":1}
+{"kind":"shape","id":"sh/ba9cn6l4","slide":2,"name":"Freeform 35","bbox":[1092.51,762.96,120.96,120.96]}
+{"kind":"textbox","id":"sh/wbidwb29","slide":2,"textChars":2,"textLines":1}
+{"kind":"textbox","id":"sh/xcrupg3u","slide":2,"textChars":24,"textLines":1}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"Motivation","textShapes":9}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"name":"Freeform 7","bbox":[0,103.3,1920,156.48]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"textChars":10,"textLines":1}
+{"kind":"shape","id":"sh/n6ls3alk","slide":3,"name":"Freeform 9","bbox":[759.24,413.17,188.98,188.98]}
+{"kind":"shape","id":"sh/n2l4fq98","slide":3,"name":"Freeform 10","bbox":[971.48,360.26,241.89,241.89]}
+{"kind":"shape","id":"sh/m1c3mlsn","slide":3,"name":"Freeform 11","bbox":[971.48,625.73,151.18,151.18]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"name":"Freeform 12","bbox":[736.56,625.73,211.66,211.66]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"textChars":1,"textLines":1}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"name":"Freeform 14","bbox":[783.35,436.43,67.75,63.42]}
+{"kind":"shape","id":"sh/a5c3ql8z","slide":3,"name":"Freeform 15","bbox":[753.31,721.71,101.36,101.36]}
+{"kind":"shape","id":"sh/x8nml0ra","slide":3,"name":"Freeform 16","bbox":[1098.9,398.32,82.2,82.88]}
+{"kind":"shape","id":"sh/w7ulsvqp","slide":3,"name":"Freeform 17","bbox":[1038.72,707.75,61.98,47.61]}
+{"kind":"shape","id":"sh/i9w3u58v","slide":3,"name":"Freeform 19","bbox":[11.98,463.17,707.74,94.49]}
+{"kind":"shape","id":"sh/e10f2twf","slide":3,"name":"TextBox 20","bbox":[11.98,447.98,707.74,109.68]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"textChars":1,"textLines":1}
+{"kind":"textbox","id":"sh/6d0fytg3","slide":3,"textChars":35,"textLines":1}
+{"kind":"shape","id":"sh/sfix03y9","slide":3,"name":"Freeform 26","bbox":[21.5,682.54,688.68,135.95]}
+{"kind":"shape","id":"sh/tgry9ofu","slide":3,"name":"TextBox 27","bbox":[21.5,667.36,688.68,151.14]}
+{"kind":"textbox","id":"sh/a9kfadwn","slide":3,"textChars":21,"textLines":1}
+{"kind":"shape","id":"sh/l4fi9cza","slide":3,"name":"Freeform 30","bbox":[1139.66,631.14,688.68,140.35]}
+{"kind":"shape","id":"sh/k3m1g7yp","slide":3,"name":"TextBox 31","bbox":[1139.66,615.96,688.68,155.54]}
+{"kind":"textbox","id":"sh/z2d07mh4","slide":3,"textChars":26,"textLines":2}
+{"kind":"shape","id":"sh/x0vi5czy","slide":3,"name":"Freeform 34","bbox":[1243.37,386.64,628.91,195.18]}
+{"kind":"shape","id":"sh/czmhc7id","slide":3,"name":"TextBox 35","bbox":[1243.37,371.45,628.91,210.37]}
+{"kind":"textbox","id":"sh/byd032h8","slide":3,"textChars":27,"textLines":1}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"Objectives","textShapes":4}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/ql8jytsj","slide":4,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"name":"Freeform 7","bbox":[0,64.62,1920,156.48]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"textChars":10,"textLines":1}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"name":"Freeform 10","bbox":[229.07,378,348.43,510.43]}
+{"kind":"shape","id":"sh/5cva1cfq","slide":4,"name":"TextBox 11","bbox":[229.07,362.81,348.43,525.62]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"name":"Freeform 13","bbox":[785.78,378,348.43,510.43]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"name":"TextBox 14","bbox":[785.78,362.81,348.43,525.62]}
+{"kind":"shape","id":"sh/a5kr2xg3","slide":4,"name":"Freeform 16","bbox":[1342.5,378,411.11,510.43]}
+{"kind":"shape","id":"sh/v6tsv2xo","slide":4,"name":"TextBox 17","bbox":[1342.5,362.81,411.11,525.62]}
+{"kind":"shape","id":"sh/h4fa9wfy","slide":4,"name":"Freeform 19","bbox":[246.1,401.35,314.36,460.61]}
+{"kind":"shape","id":"sh/p0batw72","slide":4,"name":"TextBox 20","bbox":[246.1,386.16,314.36,475.8]}
+{"kind":"shape","id":"sh/3ytsrmpw","slide":4,"name":"Freeform 22","bbox":[802.82,402.91,314.36,460.61]}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"name":"TextBox 23","bbox":[802.82,387.72,314.36,475.8]}
+{"kind":"shape","id":"sh/gv29g7q5","slide":4,"name":"Freeform 25","bbox":[1359.54,401.35,376.39,460.61]}
+{"kind":"shape","id":"sh/fu9sn2p0","slide":4,"name":"TextBox 26","bbox":[1359.54,386.16,376.39,475.8]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"textChars":57,"textLines":2}
+{"kind":"textbox","id":"sh/tsrqlc7u","slide":4,"textChars":73,"textLines":2}
+{"kind":"textbox","id":"sh/sri9s7q9","slide":4,"textChars":85,"textLines":2}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"Technologies Used","textShapes":2}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/yhkbe1o7","slide":5,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/032tgr6d","slide":5,"name":"Freeform 7","bbox":[0,80.15,1920,156.48]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"name":"Freeform 12","bbox":[1552.38,400.38,85.11,85.82]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"textChars":133,"textLines":1}
+{"kind":"table","id":"tb/rmxovy5s","slide":5,"name":"Table 9","rows":7,"cols":3,"preview":"Client | Server | Server","bbox":[158.56,285.76,362.67,717.82]}
+{"kind":"table","id":"tb/ql47mto7","slide":5,"name":"Table 10","rows":7,"cols":3,"preview":"Database | Database | Database","bbox":[985.11,285.76,362.67,714.08]}
+{"kind":"table","id":"tb/dofqx8ny","slide":5,"name":"Table 11","rows":7,"cols":3,"preview":"API Server | Client | Client","bbox":[571.83,285.76,362.67,711.8]}
+{"kind":"table","id":"tb/sn6po36d","slide":5,"name":"Table 18","rows":7,"cols":3,"preview":"Deploy | Deploy | Deploy","bbox":[1413.6,286.66,362.67,701.41]}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"System Analysis -Use Case","textShapes":3}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"name":"Freeform 7","bbox":[0,39.87,1920,156.48]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"textChars":25,"textLines":1}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"name":"Freeform 10","bbox":[102.1,185.75,532.93,798.11]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"name":"TextBox 11","bbox":[102.1,170.56,532.93,813.3]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/5svutgni","slide":6,"textChars":348,"textLines":9}
+{"kind":"image","id":"im/ju1cfeto","slide":6,"name":"Picture 14","bbox":[200,213.87,352,686.15]}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"Database Design","textShapes":5}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"name":"Freeform 3","bbox":[0,1042.2,1920,37.8]}
+{"kind":"shape","id":"sh/zedcfa9g","slide":7,"name":"Freeform 5","bbox":[0,0,1920,15.12]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"name":"Freeform 7","bbox":[0,108,1920,156.48]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"textChars":15,"textLines":1}
+{"kind":"textbox","id":"sh/fi9c369c","slide":7,"textChars":84,"textLines":6}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"textChars":99,"textLines":7}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"textChars":54,"textLines":1}
+{"kind":"textbox","id":"sh/25ojml43","slide":7,"textChars":111,"textLines":7}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"Key features","textShapes":7}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"name":"Freeform 3","bbox":[-0.55,0,332.64,1080]}
+{"kind":"shape","id":"sh/6h0fypgb","slide":8,"name":"Freeform 5","bbox":[165.77,197,332.64,738.26]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"name":"Freeform 7","bbox":[165.77,197,166.32,738.26]}
+{"kind":"shape","id":"sh/id0fu50z","slide":8,"name":"Freeform 9","bbox":[627.36,31.89,1383.35,156.48]}
+{"kind":"textbox","id":"sh/o7ydoret","slide":8,"textChars":12,"textLines":1}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"name":"Freeform 11","bbox":[622.49,193.1,1103.74,151.18]}
+{"kind":"shape","id":"sh/m5gvmhwn","slide":8,"name":"Freeform 12","bbox":[627.36,506.53,1103.74,151.18]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"name":"Freeform 13","bbox":[618.91,730.54,1103.74,151.18]}
+{"kind":"notice","message":"Truncated: omitted 47 lines. Increase maxChars or narrow target."}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"name":"TextBox 17","text":"Folder Management","textChars":110,"textLines":7}
+{"kind":"textbox","id":"sh/kfixwbe1","slide":8,"name":"TextBox 18","text":"Note Management","textChars":87,"textLines":5}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"name":"TextBox 19","text":"Flashcard & Pomodoro","textChars":144,"textLines":5}

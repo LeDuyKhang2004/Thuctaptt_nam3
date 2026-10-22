@@ -1,0 +1,153 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/utg3698n", "action": "rewrite" },
+        { "sourceElementId": "sh/5sfepcfe", "action": "rewrite" },
+        { "sourceElementId": "sh/3qxwn2x8", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 2,
+      "narrativeRole": "narrative map",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/r65knqtk", "action": "rewrite" },
+        { "sourceElementId": "sh/bip8jmho", "action": "rewrite" },
+        { "sourceElementId": "sh/cnupgny5", "action": "rewrite" },
+        { "sourceElementId": "sh/do3q9szq", "action": "rewrite" },
+        { "sourceElementId": "sh/hcvy14ne", "action": "rewrite" },
+        { "sourceElementId": "sh/gbmxszmt", "action": "rewrite" },
+        { "sourceElementId": "sh/xcrupg3u", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 3,
+      "narrativeRole": "problem analysis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/m5cra54z", "action": "rewrite" },
+        { "sourceElementId": "sh/6d0fytg3", "action": "rewrite" },
+        { "sourceElementId": "sh/a9kfadwn", "action": "rewrite" },
+        { "sourceElementId": "sh/z2d07mh4", "action": "rewrite" },
+        { "sourceElementId": "sh/byd032h8", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 4,
+      "narrativeRole": "objective summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/3ihk3et8", "action": "rewrite" },
+        { "sourceElementId": "sh/et0reh8f", "action": "rewrite" },
+        { "sourceElementId": "sh/tsrqlc7u", "action": "rewrite" },
+        { "sourceElementId": "sh/sri9s7q9", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 5,
+      "narrativeRole": "technology architecture",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/n6dcr65o", "action": "rewrite" },
+        { "sourceElementId": "sh/v2twb6dw", "action": "delete" },
+        { "sourceElementId": "tb/rmxovy5s", "action": "rewrite" },
+        { "sourceElementId": "tb/dofqx8ny", "action": "rewrite" },
+        { "sourceElementId": "tb/ql47mto7", "action": "rewrite" },
+        { "sourceElementId": "tb/sn6po36d", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 6,
+      "narrativeRole": "role and workflow analysis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/oryp8fah", "action": "rewrite" },
+        { "sourceElementId": "sh/u1kbu1ov", "action": "rewrite" },
+        { "sourceElementId": "sh/5svutgni", "action": "rewrite" },
+        { "sourceElementId": "im/ju1cfeto", "action": "replace" }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "database design analysis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/eh0ba1sr", "action": "rewrite" },
+        { "sourceElementId": "sh/cbq1sv25", "action": "rewrite" },
+        { "sourceElementId": "sh/fi9c369c", "action": "rewrite" },
+        { "sourceElementId": "sh/a9ojq5kz", "action": "rewrite" },
+        { "sourceElementId": "sh/25ojml43", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 8,
+      "narrativeRole": "feature summary",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/o7ydoret", "action": "rewrite" },
+        { "sourceElementId": "sh/zipwbmdc", "action": "rewrite" },
+        { "sourceElementId": "sh/kfixwbe1", "action": "rewrite" },
+        { "sourceElementId": "sh/lgbepgvm", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 9,
+      "sourceSlide": 9,
+      "narrativeRole": "demo divider",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/cnu1kzyd", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 10,
+      "sourceSlide": 10,
+      "narrativeRole": "results and future work comparison",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/q5gb21kb", "action": "rewrite" },
+        { "sourceElementId": "sh/jypcrqd4", "action": "rewrite" },
+        { "sourceElementId": "sh/q9srixs3", "action": "rewrite" },
+        { "sourceElementId": "sh/atwbelcn", "action": "rewrite" },
+        { "sourceElementId": "sh/lk7ut0va", "action": "rewrite" },
+        { "sourceElementId": "sh/cva9k7a9", "action": "rewrite" },
+        { "sourceElementId": "sh/wvetgbud", "action": "rewrite" },
+        { "sourceElementId": "sh/bu5cnqd8", "action": "rewrite" },
+        { "sourceElementId": "sh/5cryx4za", "action": "rewrite" },
+        { "sourceElementId": "sh/kjytkvup", "action": "delete" }
+      ]
+    },
+    {
+      "outputSlide": 11,
+      "sourceSlide": 11,
+      "narrativeRole": "conclusion synthesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/250zy18b", "action": "rewrite" },
+        { "sourceElementId": "sh/o7ih0r6h", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 12,
+      "sourceSlide": 12,
+      "narrativeRole": "closing divider",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "sourceElementId": "sh/b6d4f2lc", "action": "rewrite" }
+      ]
+    }
+  ],
+  "omittedSourceSlides": []
+}
