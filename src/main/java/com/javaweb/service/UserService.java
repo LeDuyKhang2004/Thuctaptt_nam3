@@ -88,7 +88,7 @@ public class UserService {
         UserEntity user = findById(userId);
         String normalizedRole = role == null ? "" : role.trim().toUpperCase();
 
-        if (user != null && ("ADMIN".equals(normalizedRole) || "EMPLOYEE".equals(normalizedRole))) {
+        if (user != null && ("ADMIN".equals(normalizedRole) || "EMPLOYEE".equals(normalizedRole) || "MANAGER".equals(normalizedRole))) {
             user.setRole(normalizedRole);
             userRepository.save(user);
         }

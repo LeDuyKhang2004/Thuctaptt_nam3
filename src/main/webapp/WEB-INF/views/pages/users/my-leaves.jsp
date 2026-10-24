@@ -39,7 +39,7 @@
             <table>
                 <tr>
                     <th>ID</th>
-                    <th>Lý do</th>
+                    <th>Loại</th><th>Lý do</th>
                     <th>Ngày bắt đầu</th>
                     <th>Ngày kết thúc</th>
                     <th>Trạng thái</th>
@@ -53,14 +53,14 @@
                 <c:forEach var="leave" items="${leaves}">
                     <tr>
                         <td>${leave.id}</td>
-                        <td>${leave.reason}</td>
+                        <td><c:out value="${leave.leaveType.name}"/></td><td><c:out value="${leave.reason}"/></td>
                         <td>${leave.startDate}</td>
                         <td>${leave.endDate}</td>
 
                         <td>
                             <%-- Hiển thị trạng thái bằng màu khác nhau. --%>
                             <c:choose>
-                                <c:when test="${leave.status == 'PENDING'}">
+                                <c:when test="${leave.status == 'PENDING' || leave.status == 'MANAGER_PENDING'}">
                                     <span class="status-pending">Chờ duyệt</span>
                                 </c:when>
                                 <c:when test="${leave.status == 'APPROVED'}">
@@ -71,7 +71,7 @@
                                 </c:otherwise>
                             </c:choose>
                         </td>
-                        <td>${leave.adminNote}</td>
+                        <td><c:out value="${leave.adminNote}"/></td>
 
                         <td>
                             <a class="btn btn-secondary"
@@ -81,12 +81,8 @@
                         </td>
                         <td>
                             <%-- Chỉ đơn PENDING mới được nhân viên hủy. --%>
-                            <c:if test="${leave.status == 'PENDING'}">
-                                <a class="btn btn-danger"
-                                   href="${pageContext.request.contextPath}/leave/cancel/${leave.id}"
-                                   onclick="return confirm('Bạn có chắc muốn hủy đơn này không?')">
-                                    Hủy đơn
-                                </a>
+                            <c:if test="${leave.status == 'PENDING' || leave.status == 'MANAGER_PENDING'}">
+                                <form method="post" action="${pageContext.request.contextPath}/leave/cancel/${leave.id}" onsubmit="return confirm('Bạn muốn hủy đơn?')"><input type="hidden" name="_csrf" value="${sessionScope.csrfToken}"><button class="btn btn-danger" type="submit">Hủy đơn</button></form>
                             </c:if>
                         </td>
                     </tr>

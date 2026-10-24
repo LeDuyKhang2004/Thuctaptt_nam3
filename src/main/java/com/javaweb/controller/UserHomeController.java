@@ -11,7 +11,7 @@ public class UserHomeController {
     @GetMapping("/user/home")
     public String userHome(HttpSession session) {
         // Bảo vệ trang user: chưa đăng nhập thì quay về login.
-        if (session.getAttribute("currentUser") == null) {
+        if (!(session.getAttribute("currentUser") instanceof com.javaweb.entity.UserEntity u) || "ADMIN".equals(u.getRole())) {
             return "redirect:/login";
         }
 

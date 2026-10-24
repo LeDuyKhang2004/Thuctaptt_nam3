@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="welcome-illustration" aria-hidden="true">
-                <div class="calendar-card"><span></span><strong>18</strong><small>THÁNG 8</small></div>
+                <a href="${pageContext.request.contextPath}/user/calendar" class="calendar-card"><span></span><strong>📅</strong><small>LỊCH CÔNG TY</small></a>
                 <div class="check-orbit">✓</div>
             </div>
         </section>
@@ -41,6 +41,8 @@
         </div>
 
         <div class="quick-action-grid employee-actions">
+            <a class="quick-action-card" href="${pageContext.request.contextPath}/user/calendar"><span class="quick-action-icon">▦</span><span><strong>Lịch nghỉ của công ty</strong><small>Xem ngày nghỉ do Admin công bố</small></span><b>→</b></a>
+            <a class="quick-action-card" href="${pageContext.request.contextPath}/user/notifications"><span class="quick-action-icon">✉</span><span><strong>Thông báo từ Admin</strong><small>Đọc hoặc xóa thông báo đã xem</small></span><b>→</b></a><a class="quick-action-card" href="${pageContext.request.contextPath}/leave/balance"><span class="quick-action-icon">▣</span><span><strong>Ngày phép của tôi</strong><small>Kiểm tra số dư phép năm</small></span><b>→</b></a>
             <a class="quick-action-card" href="${pageContext.request.contextPath}/leave/create">
                 <span class="quick-action-icon action-create">＋</span>
                 <span><strong>Tạo đơn nghỉ phép</strong><small>Gửi yêu cầu nghỉ mới đến quản trị viên</small></span>

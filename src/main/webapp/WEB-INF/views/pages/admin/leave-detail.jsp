@@ -38,22 +38,22 @@
 
                 <tr>
                     <th>Nhân viên</th>
-                    <td>${leave.user.fullName}</td>
+                    <td><c:out value="${leave.user.fullName}"/></td>
                 </tr>
 
                 <tr>
                     <th>Username</th>
-                    <td>${leave.user.username}</td>
+                    <td><c:out value="${leave.user.username}"/></td>
                 </tr>
 
                 <tr>
                     <th>Email</th>
-                    <td>${leave.user.email}</td>
+                    <td><c:out value="${leave.user.email}"/></td>
                 </tr>
 
                 <tr>
                     <th>Lý do nghỉ</th>
-                    <td>${leave.reason}</td>
+                    <td><c:out value="${leave.reason}"/></td>
                 </tr>
 
                 <tr>
@@ -77,6 +77,8 @@
                             <c:when test="${leave.status == 'APPROVED'}">
                                 <span class="status-approved">Đã duyệt</span>
                             </c:when>
+                            <c:when test="${leave.status == 'MANAGER_PENDING'}"><span class="status-pending">Chờ trưởng phòng duyệt</span></c:when>
+                            <c:when test="${leave.status == 'CANCELLED'}"><span>Đã hủy</span></c:when>
                             <c:otherwise>
                                 <span class="status-rejected">Từ chối</span>
                             </c:otherwise>
@@ -86,7 +88,7 @@
 
                 <tr>
                     <th>Ghi chú admin</th>
-                    <td>${leave.adminNote}</td>
+                    <td><c:out value="${leave.adminNote}"/></td>
                 </tr>
 
                 <tr>
@@ -99,11 +101,8 @@
             <%-- Nếu đơn còn PENDING thì admin có thể duyệt ngay từ trang chi tiết. --%>
             <div class="detail-actions">
                 <c:if test="${leave.status == 'PENDING'}">
-                    <a class="btn btn-success"
-                       href="${pageContext.request.contextPath}/admin/leaves/approve/${leave.id}"
-                       onclick="return confirm('Bạn có chắc muốn duyệt đơn này không?')">
-                        ✓ Duyệt đơn
-                    </a>
+                    <form method="post" action="${pageContext.request.contextPath}/admin/leaves/approve/${leave.id}" onsubmit="return confirm('Duyệt đơn này?')"><input type="hidden" name="_csrf" value="${sessionScope.csrfToken}"><button class="btn btn-success" type="submit">✓ Duyệt đơn</button></form>
+                    <form method="post" action="${pageContext.request.contextPath}/admin/leaves/reject/${leave.id}" onsubmit="return confirm('Từ chối đơn này?')"><input type="hidden" name="_csrf" value="${sessionScope.csrfToken}"><input name="adminNote" required maxlength="500" placeholder="Lý do từ chối"><button class="btn btn-danger" type="submit">Từ chối đơn</button></form>
                 </c:if>
             </div>
         </div>

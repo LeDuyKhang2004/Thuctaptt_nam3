@@ -1,150 +1,61 @@
 package com.javaweb.controller;
-
-import com.javaweb.entity.UserEntity;
-import com.javaweb.service.LeaveRequestService;
-import com.javaweb.service.UserService;
-import jakarta.servlet.http.HttpSession;
+import com.javaweb.entity.*;
+import com.javaweb.service.*;
+import jakarta.servlet.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import java.time.*;
+import java.util.*;
 
-@Controller
-@RequestMapping("/admin") // Tất cả URL trong controller này bắt đầu bằng /admin.
+@Controller @RequestMapping("/admin")
 public class AdminController {
-
-    private final LeaveRequestService leaveRequestService;
-    private final UserService userService;
-
-    // Inject service để controller gọi xử lý nghiệp vụ.
-    public AdminController(LeaveRequestService leaveRequestService, UserService userService) {
-        this.leaveRequestService = leaveRequestService;
-        this.userService = userService;
-    }
-
-    // Kiểm tra người đang đăng nhập có phải ADMIN không.
-    private boolean isAdmin(HttpSession session) {
-        UserEntity user = (UserEntity) session.getAttribute("currentUser");
-
-        // Trim role để tránh lỗi nếu dữ liệu trong DB có khoảng trắng.
-        return user != null
-                && "ADMIN".equalsIgnoreCase(user.getRole() == null ? "" : user.getRole().trim());
-    }
-
-    // Hiển thị trang dashboard thống kê của admin.
-    @GetMapping("/dashboard")
-    public String dashboard(Model model, HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login"; // Không phải admin thì về trang login.
-        }
-
-        // Gửi số liệu thống kê sang dashboard.jsp.
-        model.addAttribute("totalLeaves", leaveRequestService.countAll());
-        model.addAttribute("pendingLeaves", leaveRequestService.countPending());
-        model.addAttribute("approvedLeaves", leaveRequestService.countApproved());
-        model.addAttribute("rejectedLeaves", leaveRequestService.countRejected());
-
-        return "pages/admin/dashboard";
-    }
-
-    // Hiển thị danh sách đơn nghỉ phép, có thể lọc theo trạng thái.
-    @GetMapping("/leaves")
-    public String leaves(@RequestParam(value = "status", required = false) String status,
-                         Model model,
-                         HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        // Nếu không chọn trạng thái hoặc chọn ALL thì lấy tất cả đơn.
-        if (status == null || status.trim().isEmpty() || "ALL".equals(status)) {
-            model.addAttribute("leaves", leaveRequestService.findAll());
-            model.addAttribute("selectedStatus", "ALL");
-        } else {
-            // Nếu có status thì lọc theo trạng thái: PENDING, APPROVED, REJECTED.
-            model.addAttribute("leaves", leaveRequestService.findByStatus(status));
-            model.addAttribute("selectedStatus", status);
-        }
-
-        return "pages/admin/leave-list";
-    }
-
-    // Hiển thị danh sách nhân viên, có thể tìm kiếm theo keyword.
-    @GetMapping("/employees")
-    public String employees(@RequestParam(value = "keyword", required = false) String keyword,
-                            Model model,
-                            HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        // Tìm kiếm user theo tên, username hoặc email.
-        model.addAttribute("users", userService.searchUsers(keyword));
-        model.addAttribute("keyword", keyword);
-
-        return "pages/admin/employees";
-    }
-
-    // Admin duyệt đơn nghỉ phép.
-    @GetMapping("/leaves/approve/{id}")
-    public String approve(@PathVariable("id") Long id, HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        // Gọi service đổi trạng thái đơn thành APPROVED.
-        leaveRequestService.approve(id);
-
-        return "redirect:/admin/leaves?success=approve";
-    }
-
-    // Admin từ chối đơn nghỉ phép.
-    @PostMapping("/leaves/reject/{id}")
-    public String reject(@PathVariable("id") Long id,
-                         @RequestParam("adminNote") String adminNote,
-                         HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        // Gọi service đổi trạng thái đơn thành REJECTED và lưu lý do từ chối.
-        leaveRequestService.reject(id, adminNote);
-
-        return "redirect:/admin/leaves?success=reject";
-    }
-
-    // Admin cập nhật vai trò tài khoản: EMPLOYEE hoặc ADMIN.
-    @PostMapping("/employees/update-role/{id}")
-    public String updateRole(@PathVariable("id") Long id,
-                             @RequestParam("role") String role,
-                             HttpSession session) {
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        UserEntity currentUser = (UserEntity) session.getAttribute("currentUser");
-        if (currentUser.getId().equals(id)) {
-            return "redirect:/admin/employees?error=self-role";
-        }
-
-        // Cập nhật quyền của user.
-        userService.updateRole(id, role);
-
-        return "redirect:/admin/employees";
-    }
-
-    // Admin xem chi tiết một đơn nghỉ phép.
-    @GetMapping("/leaves/detail/{id}")
-    public String leaveDetail(@PathVariable("id") Long id,
-                              Model model,
-                              HttpSession session) {
-
-        if (!isAdmin(session)) {
-            return "redirect:/login";
-        }
-
-        // Tìm đơn theo id và gửi sang trang chi tiết.
-        model.addAttribute("leave", leaveRequestService.findById(id));
-
-        return "pages/admin/leave-detail";
-    }
+ private final LeaveRequestService leaves;private final UserService users;
+ private final LeavePolicyService policy;private final ActivityService activity;private final DepartmentService departments;
+ public AdminController(LeaveRequestService l,UserService u,LeavePolicyService p,ActivityService a,DepartmentService d){leaves=l;users=u;policy=p;activity=a;departments=d;}
+ private boolean isAdmin(HttpSession s){UserEntity u=(UserEntity)s.getAttribute("currentUser");return u!=null&&"ADMIN".equals(u.getRole());}
+ @GetMapping("/dashboard") public String dashboard(Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";m.addAttribute("totalLeaves",leaves.countAll());m.addAttribute("pendingLeaves",leaves.countPending());m.addAttribute("approvedLeaves",leaves.countApproved());m.addAttribute("rejectedLeaves",leaves.countRejected());m.addAttribute("leaves",leaves.findAll());return "pages/admin/dashboard";}
+ @GetMapping("/leaves") public String list(@RequestParam(required=false) String status,Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";String selected=(status==null||status.isBlank())?"ALL":status; m.addAttribute("leaves","ALL".equals(selected)?leaves.findAll():leaves.findByStatus(selected));m.addAttribute("selectedStatus",selected);return "pages/admin/leave-list";}
+ @GetMapping("/employees") public String employees(@RequestParam(required=false)String keyword,Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";m.addAttribute("users",users.searchUsers(keyword));m.addAttribute("keyword",keyword);m.addAttribute("departments",departments.all());return "pages/admin/employees";}
+ @PostMapping("/leaves/approve/{id}") public String approve(@PathVariable Long id,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{leaves.approve(id,(UserEntity)s.getAttribute("currentUser"));}catch(IllegalArgumentException e){return "redirect:/admin/leaves?error=invalid";}return "redirect:/admin/leaves?success=approve";}
+ @PostMapping("/leaves/reject/{id}") public String reject(@PathVariable Long id,@RequestParam String adminNote,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{leaves.reject(id,adminNote,(UserEntity)s.getAttribute("currentUser"));}catch(IllegalArgumentException e){return "redirect:/admin/leaves?error=invalid";}return "redirect:/admin/leaves?success=reject";}
+ @PostMapping("/employees/update-role/{id}") public String role(@PathVariable Long id,@RequestParam String role,HttpSession s){if(!isAdmin(s))return "redirect:/login";UserEntity u=(UserEntity)s.getAttribute("currentUser");if(u.getId().equals(id))return "redirect:/admin/employees?error=self-role";users.updateRole(id,role);activity.log(u,"UPDATE_ROLE",id,role);return "redirect:/admin/employees";}
+ @GetMapping("/leaves/detail/{id}") public String detail(@PathVariable Long id,Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";m.addAttribute("leave",leaves.findById(id));return "pages/admin/leave-detail";}
+ @GetMapping("/settings")public String settings(Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";m.addAttribute("users",users.findAll());m.addAttribute("departments",departments.all());m.addAttribute("holidays",policy.holidays());m.addAttribute("year",LocalDate.now().getYear());return "pages/admin/settings";}
+ @PostMapping("/balances")public String balance(@RequestParam Long userId,@RequestParam int year,@RequestParam int days,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{policy.allocate(users.findById(userId),year,days);activity.log((UserEntity)s.getAttribute("currentUser"),"ALLOCATE_BALANCE",userId,year+":"+days);}catch(RuntimeException e){return "redirect:/admin/settings?error=balance";}return "redirect:/admin/settings?success=balance";}
+ @PostMapping("/holidays") public String holiday(@RequestParam LocalDate date,@RequestParam String name,HttpSession s){
+  if(!isAdmin(s))return "redirect:/admin/login";
+  try{
+   if(policy.holidays().stream().anyMatch(h->h.getDate().equals(date)))return "redirect:/admin/calendar?error=duplicate";
+   policy.addHoliday(date,name);
+   activity.notifyEmployees("[Lịch nghỉ công ty] "+name.trim()+" - ngày "+date+". Xem lịch nghỉ để biết chi tiết.","/user/calendar");
+   activity.log((UserEntity)s.getAttribute("currentUser"),"ADD_COMPANY_HOLIDAY",null,date+" - "+name.trim());
+  }catch(RuntimeException e){return "redirect:/admin/calendar?error=holiday";}
+  return "redirect:/admin/calendar?success=holiday";
+ }
+ @PostMapping("/holidays/delete/{id}")public String deleteHoliday(@PathVariable Long id,HttpSession s){
+  if(!isAdmin(s))return "redirect:/admin/login";
+  HolidayEntity h=policy.holidays().stream().filter(item->item.getId().equals(id)).findFirst().orElse(null);
+  if(h==null)return "redirect:/admin/calendar?error=missing";
+  policy.deleteHoliday(id);
+  activity.notifyEmployees("[Lịch nghỉ công ty] Ngày nghỉ "+h.getDate()+" ("+h.getName()+") đã bị hủy/cập nhật.","/user/calendar");
+  activity.log((UserEntity)s.getAttribute("currentUser"),"DELETE_COMPANY_HOLIDAY",id,h.getDate()+" - "+h.getName());
+  return "redirect:/admin/calendar?success=holiday-delete";
+ }
+ @PostMapping("/departments")public String department(@RequestParam String name,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{departments.add(name);}catch(RuntimeException e){return "redirect:/admin/settings?error=department";}return "redirect:/admin/settings?success=department";}
+ @PostMapping("/departments/assign")public String assign(@RequestParam Long userId,@RequestParam Long departmentId,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{departments.assign(userId,departmentId);}catch(RuntimeException e){return "redirect:/admin/settings?error=department";}return "redirect:/admin/settings?success=assign";}
+ @PostMapping("/departments/manager")public String manager(@RequestParam Long departmentId,@RequestParam Long userId,HttpSession s){if(!isAdmin(s))return "redirect:/login";try{departments.manager(departmentId,userId);}catch(RuntimeException e){return "redirect:/admin/settings?error=manager";}return "redirect:/admin/settings?success=manager";}
+ @GetMapping("/announcements") public String announcements(Model m,HttpSession s){
+  if(!isAdmin(s))return "redirect:/admin/login";
+  m.addAttribute("users",users.findAll().stream().filter(u->!"ADMIN".equals(u.getRole())).toList());
+  m.addAttribute("sentLogs",activity.logs().stream().filter(log->"ADMIN_ANNOUNCEMENT".equals(log.getAction())).toList());
+  return "pages/admin/announcements";
+ }
+ @PostMapping("/announcements/send") public String send(@RequestParam(required=false) Long recipientId,@RequestParam String message,HttpSession s){
+  if(!isAdmin(s))return "redirect:/admin/login";
+  try{int count=activity.sendFromAdmin((UserEntity)s.getAttribute("currentUser"),recipientId,message);
+      return "redirect:/admin/announcements?sent="+count;
+  }catch(RuntimeException e){return "redirect:/admin/announcements?error=invalid";}
+ }
+ @GetMapping("/audit")public String audits(Model m,HttpSession s){if(!isAdmin(s))return "redirect:/login";m.addAttribute("logs",activity.logs());return "pages/admin/audit";}
 }

@@ -49,6 +49,7 @@
 
     <%-- name của input phải khớp field trong UserEntity để @ModelAttribute bind dữ liệu. --%>
     <form action="${pageContext.request.contextPath}/register" method="post">
+<input type="hidden" name="_csrf" value="${sessionScope.csrfToken}">
 
         <div class="form-group">
             <label>Họ tên</label>
@@ -75,7 +76,7 @@
     </form>
 
     <div class="auth-link">
-        Đã có tài khoản? <a href="${pageContext.request.contextPath}/login">Đăng nhập</a>
+        Đã có tài khoản? <a href="${pageContext.request.contextPath}/user/login">Đăng nhập</a>
     </div>
         </div>
     </section>

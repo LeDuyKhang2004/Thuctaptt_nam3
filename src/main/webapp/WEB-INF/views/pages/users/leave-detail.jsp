@@ -38,7 +38,7 @@
 
                 <tr>
                     <th>Lý do nghỉ</th>
-                    <td>${leave.reason}</td>
+                    <td><c:out value="${leave.reason}"/></td>
                 </tr>
 
                 <tr>
@@ -71,7 +71,7 @@
 
                 <tr>
                     <th>Ghi chú admin</th>
-                    <td>${leave.adminNote}</td>
+                    <td><c:out value="${leave.adminNote}"/></td>
                 </tr>
 
                 <tr>

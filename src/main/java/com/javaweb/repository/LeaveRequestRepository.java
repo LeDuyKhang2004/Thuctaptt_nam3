@@ -9,6 +9,10 @@ import java.util.List;
 // Repository thao tác với bảng leave_requests thông qua entity LeaveRequestEntity.
 public interface LeaveRequestRepository extends JpaRepository<LeaveRequestEntity, Long> {
 
+    java.util.List<LeaveRequestEntity> findByUserIdAndStatusIn(Long userId, java.util.Collection<String> statuses);
+    java.util.List<LeaveRequestEntity> findByStatusIn(java.util.Collection<String> statuses);
+    java.util.List<LeaveRequestEntity> findByUserDepartmentIdAndStatus(Long departmentId,String status);
+
     // Lấy tất cả đơn nghỉ phép thuộc về một user.
     List<LeaveRequestEntity> findByUser(UserEntity user);
 

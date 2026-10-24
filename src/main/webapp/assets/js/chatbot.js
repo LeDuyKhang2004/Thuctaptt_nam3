@@ -129,7 +129,7 @@
             try {
                 const response = await fetch(endpoint, {
                     method: "POST",
-                    headers: {"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                    headers: {"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "X-CSRF-Token": document.getElementById("csrfValue")?.value || ""},
                     body: new URLSearchParams({message: message})
                 });
                 const responseText = await response.text();

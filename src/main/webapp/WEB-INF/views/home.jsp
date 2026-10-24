@@ -18,8 +18,9 @@
         </span>
     </a>
     <div class="landing-nav-actions">
-        <a class="btn btn-ghost" href="${pageContext.request.contextPath}/login">Đăng nhập</a>
+        <a class="btn btn-ghost" href="${pageContext.request.contextPath}/user/login">Đăng nhập</a>
         <a class="btn" href="${pageContext.request.contextPath}/register">Tạo tài khoản</a>
+        <a class="btn btn-ghost" href="${pageContext.request.contextPath}/admin/login">Khu vực Admin</a>
     </div>
 </header>
 
@@ -31,7 +32,7 @@
             <p>Một không gian chung để nhân viên gửi yêu cầu, quản trị viên phê duyệt và mọi người luôn biết đơn của mình đang ở đâu.</p>
             <div class="hero-actions">
                 <a class="btn btn-lg" href="${pageContext.request.contextPath}/register">Bắt đầu sử dụng</a>
-                <a class="btn btn-lg btn-ghost" href="${pageContext.request.contextPath}/login">Tôi đã có tài khoản</a>
+                <a class="btn btn-lg btn-ghost" href="${pageContext.request.contextPath}/user/login">Tôi đã có tài khoản</a>
             </div>
             <div class="hero-trust">
                 <span>✓ Trạng thái minh bạch</span>

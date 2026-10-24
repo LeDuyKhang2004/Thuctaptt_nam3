@@ -30,6 +30,12 @@ public class UserEntity {
     // Vai trò dùng để phân quyền: EMPLOYEE hoặc ADMIN.
     private String role;
 
+    @ManyToOne
+    @JoinColumn(name="department_id")
+    private DepartmentEntity department;
+    public DepartmentEntity getDepartment(){return department;}
+    public void setDepartment(DepartmentEntity department){this.department=department;}
+
     // Một user có thể có nhiều đơn nghỉ phép.
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<LeaveRequestEntity> leaveRequests;

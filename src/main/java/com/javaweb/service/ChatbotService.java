@@ -3,6 +3,7 @@ package com.javaweb.service;
 import com.javaweb.entity.LeaveRequestEntity;
 import com.javaweb.entity.UserEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.text.Normalizer;
 import java.time.LocalDate;
@@ -26,10 +27,15 @@ public class ChatbotService {
     );
 
     private final LeaveRequestService leaveRequestService;
+    private final LeavePolicyService policy;
 
-    public ChatbotService(LeaveRequestService leaveRequestService) {
-        this.leaveRequestService = leaveRequestService;
+    @Autowired
+    public ChatbotService(LeaveRequestService leaveRequestService, LeavePolicyService policy) {
+        this.leaveRequestService = leaveRequestService;this.policy=policy;
     }
+    // Preserve constructor used by existing unit tests.
+    public ChatbotService(LeaveRequestService leaveRequestService){this(leaveRequestService,null);}
+
 
     public String reply(String message, UserEntity currentUser) {
         if (currentUser == null) {
@@ -41,6 +47,17 @@ public class ChatbotService {
             return "Bạn hãy nhập câu hỏi. Ví dụ: \"Đơn gần nhất của tôi thế nào?\" hoặc \"Kiểm tra đơn số 12\".";
         }
 
+        if(containsAny(text,"phep con lai","con bao nhieu ngay phep","so du phep","han muc phep","con lai may ngay")){
+            if(policy==null)return "Bạn có thể xem phép còn lại tại mục Số ngày phép của tôi.";
+            int year=LocalDate.now().getYear();
+            return "Năm "+year+": bạn còn "+policy.remaining(currentUser,year)+" ngày phép năm khả dụng (đã trừ đơn chờ duyệt).";
+        }
+        if(containsAny(text,"ngay le","nghi le","lich nghi")){
+            if(policy==null)return "Xem Lịch nghỉ để biết các đơn đã duyệt.";
+            StringBuilder b=new StringBuilder("Ngày nghỉ lễ đã cấu hình:\n");
+            policy.holidays().stream().limit(20).forEach(h->b.append("- ").append(h.getDate()).append(": ").append(h.getName()).append("\n"));
+            return b.toString();
+        }
         Long leaveId = extractLeaveId(text);
         if (leaveId != null && containsAny(text, "don", "trang thai", "chi tiet", "kiem tra", "xem", "bao nhieu ngay")) {
             return answerLeaveById(leaveId, currentUser);
@@ -103,8 +120,7 @@ public class ChatbotService {
         }
 
         if (containsAny(text, "chinh sach", "quy dinh nghi", "phep nam", "han muc", "so ngay phep con lai")) {
-            return "Hệ thống hiện chưa lưu hạn mức phép năm hoặc chính sách nội bộ, nên tôi không thể xác định chính xác số ngày còn lại.\n"
-                    + "Tôi có thể tính tổng số ngày trong các đơn đã được duyệt; hãy hỏi: \"Tôi đã nghỉ bao nhiêu ngày?\".";
+            return "Xem mục Số ngày phép của tôi để biết hạn mức và số dư hiện tại. Cuối tuần và ngày lễ không tính là ngày làm việc.";
         }
 
         if (containsAny(text, "giup do", "tro giup", "huong dan", "ban lam duoc gi", "chatbot", "tro ly ai")) {
@@ -359,6 +375,8 @@ public class ChatbotService {
             case PENDING -> "PENDING (Chờ duyệt)";
             case APPROVED -> "APPROVED (Đã duyệt)";
             case REJECTED -> "REJECTED (Từ chối)";
+            case "MANAGER_PENDING" -> "MANAGER_PENDING (Chờ trưởng phòng)";
+            case "CANCELLED" -> "CANCELLED (Đã hủy)";
             default -> "Chưa xác định";
         };
     }

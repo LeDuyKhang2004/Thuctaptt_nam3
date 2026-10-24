@@ -1,0 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1"><title>Lịch sử thao tác - LeaveFlow</title><link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style.css"></head>
+<body><jsp:include page="../../components/layout/header.jsp"/><div class="wrapper"><jsp:include page="../../components/layout/sidebar-admin.jsp"/>
+<main class="content"><div class="page-heading"><div><span class="eyebrow">LeaveFlow • Enhanced</span><h1>Lịch sử thao tác</h1></div></div><div class="card"><div class="table-responsive"><table><tr><th>Thời điểm</th><th>ID người thao tác</th><th>Hành động</th><th>Đơn/tài khoản</th><th>Chi tiết</th></tr><c:forEach var="l" items="${logs}"><tr><td>${l.createdAt}</td><td>${l.actorId}</td><td><c:out value="${l.action}"/></td><td>${l.entityId}</td><td><c:out value="${l.detail}"/></td></tr></c:forEach></table></div></div></main></div></body></html>

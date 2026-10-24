@@ -64,10 +64,10 @@
                 <c:forEach var="user" items="${users}">
                     <tr>
                         <td>${user.id}</td>
-                        <td>${user.fullName}</td>
-                        <td>${user.username}</td>
-                        <td>${user.email}</td>
-                        <td>${user.role}</td>
+                        <td><c:out value="${user.fullName}"/></td>
+                        <td><c:out value="${user.username}"/></td>
+                        <td><c:out value="${user.email}"/></td>
+                        <td><c:out value="${user.role}"/></td>
                         <td>
                             <%-- Admin không được tự đổi quyền của chính tài khoản đang đăng nhập. --%>
                             <c:choose>
@@ -79,6 +79,7 @@
                                     <form action="${pageContext.request.contextPath}/admin/employees/update-role/${user.id}"
                                           method="post"
                                           style="display: flex; gap: 8px; align-items: center;">
+<input type="hidden" name="_csrf" value="${sessionScope.csrfToken}">
 
                                         <select name="role" style="width: 150px;">
                                             <option value="EMPLOYEE"
@@ -86,6 +87,7 @@
                                                 EMPLOYEE
                                             </option>
 
+                                            <option value="MANAGER" <c:if test="${user.role == 'MANAGER'}">selected</c:if>>MANAGER</option>
                                             <option value="ADMIN"
                                                 <c:if test="${user.role == 'ADMIN'}">selected</c:if>>
                                                 ADMIN

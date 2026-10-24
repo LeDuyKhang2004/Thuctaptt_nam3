@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <%-- Trang login nhận lỗi/thông báo thành công qua query string trên URL. --%>
 
 <html>
@@ -31,8 +32,8 @@
             <a class="back-link" href="${pageContext.request.contextPath}/home">← Về trang chủ</a>
             <div class="auth-heading">
                 <span class="eyebrow">Chào mừng trở lại</span>
-                <h1>Đăng nhập tài khoản</h1>
-                <p>Nhập thông tin để tiếp tục vào hệ thống.</p>
+                <h1>${loginArea == 'ADMIN' ? 'Đăng nhập Admin' : 'Đăng nhập Nhân viên'}</h1>
+                <p>${loginArea == 'ADMIN' ? 'Chỉ dành cho tài khoản quản trị viên.' : 'Dành cho nhân viên và trưởng phòng.'}</p>
             </div>
 
     <%-- Nếu controller redirect về /login?error=true thì hiển thị lỗi đăng nhập. --%>
@@ -44,6 +45,9 @@
     <%
         }
     %>
+    <% if ("role".equals(request.getParameter("error"))) { %>
+        <div class="alert-error">Tài khoản không thuộc khu vực đăng nhập này. Hãy chọn đúng cổng Admin hoặc Nhân viên.</div>
+    <% } %>
     <%-- Sau khi đăng ký thành công, AuthController redirect về /login?success=register. --%>
     <%
         String success = request.getParameter("success");
@@ -55,7 +59,8 @@
     %>
 
     <%-- Form POST về /login, AuthController.login() sẽ nhận username và password. --%>
-    <form action="${pageContext.request.contextPath}/login" method="post">
+    <form action="${pageContext.request.contextPath}${loginArea == 'ADMIN' ? '/admin/login' : '/user/login'}" method="post">
+<input type="hidden" name="_csrf" value="${sessionScope.csrfToken}">
 
         <div class="form-group">
             <label>Tên đăng nhập</label>
@@ -72,7 +77,12 @@
     </form>
 
     <div class="auth-link">
-        Chưa có tài khoản? <a href="${pageContext.request.contextPath}/register">Đăng ký ngay</a>
+        <c:choose><c:when test="${loginArea == 'ADMIN'}">
+          <a href="${pageContext.request.contextPath}/user/login">Chuyển sang đăng nhập Nhân viên →</a>
+        </c:when><c:otherwise>
+          Chưa có tài khoản? <a href="${pageContext.request.contextPath}/register">Đăng ký ngay</a>
+          <p><a href="${pageContext.request.contextPath}/admin/login">Đăng nhập dành cho Admin →</a></p>
+        </c:otherwise></c:choose>
     </div>
         </div>
     </section>

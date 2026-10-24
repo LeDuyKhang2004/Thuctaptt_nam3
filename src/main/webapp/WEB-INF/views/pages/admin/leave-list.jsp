@@ -38,6 +38,7 @@
                     Từ chối đơn thành công.
                 </div>
             </c:if>
+            <c:if test="${not empty param.error}"><div class="alert-error">Đơn không hợp lệ hoặc đã được xử lý.</div></c:if>
             <%-- Form GET lọc theo status; controller trả lại selectedStatus để giữ lựa chọn. --%>
             <form class="filter-bar compact-filter" action="${pageContext.request.contextPath}/admin/leaves" method="get">
                 <div class="form-group">
@@ -59,6 +60,8 @@
                             Đã duyệt
                         </option>
 
+                        <option value="MANAGER_PENDING" <c:if test="${selectedStatus == 'MANAGER_PENDING'}">selected</c:if>>Chờ trưởng phòng</option>
+                        <option value="CANCELLED" <c:if test="${selectedStatus == 'CANCELLED'}">selected</c:if>>Đã hủy</option>
                         <option value="REJECTED"
                             <c:if test="${selectedStatus == 'REJECTED'}">selected</c:if>>
                             Từ chối
@@ -73,7 +76,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Nhân viên</th>
-                    <th>Lý do</th>
+                    <th>Loại</th><th>Lý do</th>
                     <th>Ngày bắt đầu</th>
                     <th>Ngày kết thúc</th>
                     <th>Trạng thái</th>
@@ -86,26 +89,32 @@
                 <c:forEach var="leave" items="${leaves}">
                     <tr>
                         <td>${leave.id}</td>
-                        <td>${leave.user.fullName}</td>
-                        <td>${leave.reason}</td>
+                        <td><c:out value="${leave.user.fullName}"/></td>
+                        <td><c:out value="${leave.leaveType.name}"/></td><td><c:out value="${leave.reason}"/></td>
                         <td>${leave.startDate}</td>
                         <td>${leave.endDate}</td>
 
                         <td>
                             <%-- Hiển thị màu trạng thái theo status của đơn. --%>
                             <c:choose>
+                                <c:when test="${leave.status == 'MANAGER_PENDING'}">
+                                    <span class="status-pending">Chờ trưởng phòng</span>
+                                </c:when>
                                 <c:when test="${leave.status == 'PENDING'}">
                                     <span class="status-pending">Chờ duyệt</span>
                                 </c:when>
                                 <c:when test="${leave.status == 'APPROVED'}">
                                     <span class="status-approved">Đã duyệt</span>
                                 </c:when>
+                                <c:when test="${leave.status == 'CANCELLED'}">
+                                    <span>Đã hủy</span>
+                                </c:when>
                                 <c:otherwise>
                                     <span class="status-rejected">Từ chối</span>
                                 </c:otherwise>
                             </c:choose>
                         </td>
-                        <td>${leave.adminNote}</td>
+                        <td><c:out value="${leave.adminNote}"/></td>
 
                         <td>
                             <a class="btn btn-secondary"
@@ -118,16 +127,13 @@
                            <%-- Chỉ đơn PENDING mới có nút duyệt/từ chối. --%>
                            <c:choose>
                                <c:when test="${leave.status == 'PENDING'}">
-                                   <a class="btn btn-success"
-                                      href="${pageContext.request.contextPath}/admin/leaves/approve/${leave.id}"
-                                      onclick="return confirm('Bạn có chắc muốn duyệt đơn này không?')">
-                                       Duyệt
-                                   </a>
+                                   <form method="post" style="display:inline" action="${pageContext.request.contextPath}/admin/leaves/approve/${leave.id}" onsubmit="return confirm('Duyệt đơn này?')"><input type="hidden" name="_csrf" value="${sessionScope.csrfToken}"><button class="btn btn-success">Duyệt</button></form>
 
                                    <form action="${pageContext.request.contextPath}/admin/leaves/reject/${leave.id}"
                                          method="post"
                                          style="display:inline-block; margin-top:6px;"
                                          onsubmit="return confirm('Bạn có chắc muốn từ chối đơn này không?')">
+<input type="hidden" name="_csrf" value="${sessionScope.csrfToken}">
 
                                        <input type="text"
                                               name="adminNote"

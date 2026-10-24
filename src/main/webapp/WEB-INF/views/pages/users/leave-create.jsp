@@ -34,7 +34,12 @@
 
             <%-- name của input phải khớp field reason/startDate/endDate trong LeaveRequestEntity. --%>
             <form action="${pageContext.request.contextPath}/leave/create" method="post">
+<input type="hidden" name="_csrf" value="${sessionScope.csrfToken}">
 
+                <p class="small-note">Phép năm còn khả dụng (đã tính đơn chờ duyệt): <strong>${balance} ngày</strong>.</p>
+                <div class="form-group"><label>Loại nghỉ phép</label><select name="typeId" required>
+                  <c:forEach var="t" items="${types}"><option value="${t.id}"><c:out value="${t.name}"/></option></c:forEach>
+                </select></div>
                 <div class="form-group">
                     <label>Lý do nghỉ <span class="required-mark">*</span></label>
                     <textarea name="reason" rows="5" placeholder="Nhập lý do xin nghỉ..." required>${leaveRequest.reason}</textarea>

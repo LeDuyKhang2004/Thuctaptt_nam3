@@ -46,6 +46,20 @@ public class LeaveRequestEntity {
     @JoinColumn(name = "user_id")
     private UserEntity user;
 
+    @ManyToOne @JoinColumn(name="leave_type_id")
+    private LeaveTypeEntity leaveType;
+    @Column(name="work_days") private Integer workDays;
+    @ManyToOne @JoinColumn(name="reviewed_by") private UserEntity reviewedBy;
+    @Column(name="reviewed_at") private LocalDateTime reviewedAt;
+    public LeaveTypeEntity getLeaveType(){return leaveType;}
+    public void setLeaveType(LeaveTypeEntity leaveType){this.leaveType=leaveType;}
+    public Integer getWorkDays(){return workDays;}
+    public void setWorkDays(Integer value){this.workDays=value;}
+    public UserEntity getReviewedBy(){return reviewedBy;}
+    public void setReviewedBy(UserEntity value){this.reviewedBy=value;}
+    public LocalDateTime getReviewedAt(){return reviewedAt;}
+    public void setReviewedAt(LocalDateTime value){this.reviewedAt=value;}
+
     // Getter dùng để đọc dữ liệu từ entity.
     public Long getId() {
         return id;
